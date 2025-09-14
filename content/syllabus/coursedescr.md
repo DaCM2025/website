@@ -3,16 +3,28 @@ title = "Course description"
 weight = 10
 +++
 
-This class is intended to introduce to the students a wide range of programming tools using the `R` language. Tentative list of topics that will be discussed in this class are listed below:
+This course introduces students to the **essential tools and practices of modern data and code management**, with a focus on **business analytics applications**.  
+It covers a broad spectrum of programming languages and platforms — including **R, Python, SQL, GitHub, Power BI, and modern AI assistants (LLMs)** — to help students design reproducible, collaborative, and impactful data workflows.  
 
-- **Reproducible research:** [knitr](https://yihui.name/knitr/) and [rmarkdown](https://rmarkdown.rstudio.com/)
-- **Version control:** [GitHub](https://github.com/)
-- **Introduction to programming:** Data structures, logical operators, control structures and functions
-- **Visualizations:** Exploratory data analysis with Base R and [ggplot2](https://ggplot2.tidyverse.org/)
-- **R packages:** Construction of R-packages using [devtools](https://cran.r-project.org/web/packages/devtools/vignettes/dependencies.html), [roxygen2](https://cran.r-project.org/web/packages/roxygen2/vignettes/roxygen2.html) and
-  [pkgdown](https://pkgdown.r-lib.org/articles/pkgdown.html)
-- **Communication:** webiste creation via [blogdown](https://bookdown.org/yihui/blogdown/), Web application via [shiny](https://shiny.rstudio.com/)
-- **Web scraping:** Automatic extraction of data from websites using [SelectorGadget](https://cran.r-project.org/web/packages/rvest/vignettes/selectorgadget.html), [rvest](https://blog.rstudio.com/2014/11/24/rvest-easy-web-scraping-with-r/) and [quantmod](https://www.quantmod.com/), regular expression
-- **High performance computing:** R and C++ integration via [Rcpp](http://www.rcpp.org/), parallel computing.
+### Topics covered include:
+- **Reproducible research:** Literate programming with [RMarkdown](https://rmarkdown.rstudio.com/) and [Jupyter Notebooks](https://jupyter.org/).  
+- **Version control & collaboration:** Best practices with [GitHub](https://github.com/).  
+- **Programming foundations:** Data structures, logical operators, control structures, and functions in **R and Python**.  
+- **Databases & SQL:** Querying, joining, and aggregating data, with integration into R and Python.  
+- **Visualization & reporting:** From exploratory analysis with [ggplot2](https://ggplot2.tidyverse.org/) and Python’s visualization libraries to **interactive dashboards in Power BI**.  
+- **Software engineering for data science:** Functions, testing, documentation, and package creation in R/Python.  
+- **Web & data collection:** Web scraping and APIs (using Rvest, BeautifulSoup, requests, etc.).  
+- **Interactive applications:** Development of web apps with [Shiny](https://shiny.rstudio.com/) and [Streamlit](https://streamlit.io/).  
+- **Large Language Models (LLMs):** Leveraging AI assistants responsibly for code generation, documentation, and analytics.  
+- **Communication & dissemination:** Building reproducible websites, dashboards, and reports for sharing results.  
 
-We do not assume any prior IT background from our students; however, we do expect a strong desire to acquire valuable and hands-on programming skills.
+### Learning outcomes
+By the end of the course, students will be able to:  
+- Build and manage **reproducible data pipelines** across R, Python, and SQL.  
+- Develop and share **interactive applications and dashboards**.  
+- Apply **best practices in coding, documentation, testing, and collaboration**.  
+- Critically integrate **AI-powered tools** into their analytical workflow.  
+- Deliver **professional, reproducible, and transparent projects** from data collection to final presentation.  
+
+No prior background in IT or programming is assumed, but students should bring curiosity and motivation to acquire **hands-on programming skills** that will serve them in their academic and professional careers.
+

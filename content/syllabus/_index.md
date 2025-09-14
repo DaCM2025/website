@@ -2,9 +2,8 @@
 title = "Syllabus"
 weight = 5
 chapter = true
+date = "2025-09-13"
 +++
-
-# Syllabus
 
 Explore the nature of this course and understand its various prerequisites.
 

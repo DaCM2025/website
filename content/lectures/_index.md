@@ -4,32 +4,30 @@ weight = 10
 chapter = true
 +++
 
-# Lectures
-
 Every Thursday from 9:00 to 12:00.
 
 The ideal schedule is given below. It is subject to modifications.
 
-Class-related discussion and questions will be on Slack. Do not forget to register [here](https://forms.gle/9aKQ25idaypnmAJb8).
+Class-related discussion and questions will be on Slack. Do not forget to register [here](https://forms.gle/SKxLd56CuWhcSga79).
 
 {{% notice warning %}}
-The lecture of the 31st of October was on Zoom. The record is on this [link](https://unil.zoom.us/rec/share/XiOP_aFUDuT9DnTH3lRnHRaDjk24p58ZtAdYXbYeC0VluOT5Ia8U9waSvZWU69pK.oa_J3VM47VR3DUMA?startTime=1730361683000), passcode: 8a=3P!BE. 
+Exceptionnally the Practical on week 6 will be on Friday 24 Oct.
 {{% /notice %}}
 
-| Week | Date | Topic | Instructor |   
-|---|---|---|---|   
-| 1 | 19 Sept | No class (_Thesis planning \& Career planning workshops_) |  |   
-| 2 | 26 Sept | [Introduction](https://ptds2024.github.io/class/lecture01), [RMarkdown](https://ptds2024.github.io/class/lecture02_markdown), [Github](https://ptds2024.github.io/class/lecture03_github), [Project](https://ptds2024.github.io/class/lecture13_project)| Samuel |
-| 3 | 3 Oct | [Data structures](https://ptds2024.github.io/class/lecture04_datastructure), [Control structures](https://ptds2024.github.io/class/lecture05_controlstructure), [Function](https://ptds2024.github.io/class/lecture06_function) | Samuel |
-| 4 | 10 Oct | Exercise and Homework 1 | Timofei |
-| 5 | 17 Oct | [Object-oriented programming](https://ptds2024.github.io/class/lecture07_OOP), [Webscraping](https://ptds2024.github.io/class/lecture08_webscrap), [Shiny App](https://ptds2024.github.io/class/lecture09_shiny)  | Samuel | 
-| 6 | 24 Oct | Exercise and Homework 2 | Timofei |
-| 7 | 31 Oct | [Functional programming](https://ptds2024.github.io/class/lecture10_functional), [Package creation](https://ptds2024.github.io/class/lecture11_pkg), [Advanced shiny App](https://ptds2024.github.io/class/lecture12_shiny2), | Samuel |
-| 8 | 7 Nov | Exercise and Homework 3 | Timofei |
-| 9 | 14 Nov | [Data science with R on Google Cloud](https://ptds2024.github.io/class/lecture13_googlecloud) | Samuel |
-| 9 | 21 Nov | Power BI, final class | Samuel |
-| 11 | 28 Nov | Group Project | Timofei | 
-| 12 | 5 Dec | Group project | Timofei |
-| 13 | 12 Dec | Group project | Timofei | 
-| 14 | 19 Dec | Project Presentations | Samuel and Timofei| 
+| Week | Date        | Focus                                           | Session (3h)                                                                                                                                                                                  | Homework                                                               |
+| ---- | ----------- | ----------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| 1    | 18 Sep 2025 | Kick-off                                        | No class (Thesis & Career workshops)                                                                                                                                                          | –                                                                      |
+| 2    | 25 Sep 2025 | Introduction & Tools (Lecture)                  | - Course overview, expectations  - Reproducibility in analytics  - Tools: R, Python, SQL, GitHub, Markdown/Jupyter                                                                        | –                                                                      |
+| 3    | 02 Oct 2025 | Programming Foundations (Lecture)               | - Data structures (R & Python)<br>- Control structures & functions<br>- Good coding practices                                                                                                 | **HW1 released** (Programming foundations in R/Python)                 |
+| 4    | 09 Oct 2025 | Practical 1                                     | - R/Python coding drills (functions, loops, vectorization)<br>- Git workflow practice                                                                                                         | **HW1 discussed**                                                      |
+| 5    | 16 Oct 2025 | Data Management & Collection (Lecture)          | - Relational databases & SQL basics (SELECT, JOIN, GROUP BY)<br>- Accessing SQL from R/Python<br>- Web scraping (Rvest, BeautifulSoup)<br>- APIs & JSON<br>- Storage formats & best practices | **HW1 due** <br> **HW2 released** (SQL + scraping/API integration)     |
+| 6    | **24** Oct 2025 | Practical 2                                     | - SQL queries + API/scraping mini-lab<br>- Integrate results into R/Python                                                                                                                    | **HW2 discussed**                                                      |
+| 7    | 30 Oct 2025 | Software Engineering for Data Science (Lecture) | - Object-oriented programming (R S3/S4, Python classes)<br>- Functional programming<br>- Package development<br>- Testing & documentation                                                     | **HW2 due** <br> **HW3 released** (functions, package basics, testing) |
+| 8    | 06 Nov 2025 | Practical 3                                     | - Functions & package skeleton in R/Python<br>- Documentation & testing basics                                                                                                                | **HW3 discussed**                                                      |
+| 9    | 13 Nov 2025 | Modern Tools: BI & LLMs (Lecture)               | - Power BI for visualization & storytelling<br>- Prompt engineering for LLMs<br>- Using LLMs for code/documentation/tests<br>- AI copilots for analytics                                      | **HW3 due**                                                            |
+| 10   | 20 Nov 2025 | Practical 4                                     | - LLM lab: generate SQL queries, R/Python snippets<br>- Build BI dashboard (Power BI/Shiny/Streamlit)                                                                                         | –                                                                      |
+| 11   | 27 Nov 2025 | Project Work I                         | - Group project supervision<br>- Focus on reproducibility, integration, and communication                                                                                                     | –                                                                      |
+| 12   | 04 Dec 2025 | Project Work II                                     | - Group sprint: project review<br>- Hands-on project development                                                                                                                     | –                                                                      |
+| 13   | 11 Dec 2025 | Project Work III                       | - Project refinement<br>- Preparing final deliverables                                                                                                                                        | –                                                                      |
+| 14   | 18 Dec 2025 | Project Presentations                | - Final presentations                                                                                                                                                            | –                                                                      |
 

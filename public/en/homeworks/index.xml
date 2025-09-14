@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homeworks :: Data and Code Management: From Collection to Application</title>
+    <link>http://localhost:1313/en/homeworks/index.html</link>
+    <description>Homeworks There are four graded homeworks to be submitted at different deadlines during the semester. The homeworks represent 50% of the final grade. Time management is important for succeeding in this class, try to avoid the following example:</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <atom:link href="http://localhost:1313/en/homeworks/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tutorials on Programming tools for data science</title>
-    <link>http://localhost:1313/en/tutorials/</link>
-    <description>Recent content in Tutorials on Programming tools for data science</description>
+    <title>Tutorials :: Data and Code Management: From Collection to Application</title>
+    <link>http://localhost:1313/en/tutorials/index.html</link>
+    <description>Tutorials This section contains the tutorials on various topics, namely, coding style guide, basics of syntax, best practice, conventions, typical workflows, etc.</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Tue, 05 Sep 2023 13:10:39 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/en/tutorials/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git(hub) setup</title>
-      <link>http://localhost:1313/en/tutorials/github/</link>
+      <link>http://localhost:1313/en/tutorials/github/index.html</link>
       <pubDate>Tue, 05 Sep 2023 13:10:39 +0200</pubDate>
-      <guid>http://localhost:1313/en/tutorials/github/</guid>
-      <description>Installing and setting up Git, GitHub, and a Git GUI In this section we will install a distributed version-control system Git, register a new user at GitHub and connect them together.&#xA;1. Installing and setting up Git Download Git installer from git website by clicking on &amp;ldquo;Download for Windows&amp;rdquo; or &amp;ldquo;Download for macOS&amp;rdquo; button, automatically detected for your machine. Open the downloaded file and follow the proposed steps Configure your Git to let it know who you are.</description>
+      <guid>http://localhost:1313/en/tutorials/github/index.html</guid>
+      <description>Installing and setting up Git, GitHub, and a Git GUI In this section we will install a distributed version-control system Git, register a new user at GitHub and connect them together.&#xA;1. Installing and setting up Git Download Git installer from git website by clicking on “Download for Windows” or “Download for macOS” button, automatically detected for your machine. Open the downloaded file and follow the proposed steps Configure your Git to let it know who you are. Do it by opening a command prompt or Terminal window on your computer and set “Your Name” and “your_email@unil.ch{.email}” git config --global user.name &#34;Your Name&#34; git config --global user.email &#34;your_email@unil.ch&#34; Replace “Your Name” with your preferred name or the name you want to associate with your Git commits. Please also use your UNIL email address, so that we can exploit GitHub Student Developer Pack afterwards.</description>
     </item>
     <item>
       <title>R/RStudio setup</title>
-      <link>http://localhost:1313/en/tutorials/r_install/</link>
+      <link>http://localhost:1313/en/tutorials/r_install/index.html</link>
       <pubDate>Tue, 05 Sep 2023 13:10:39 +0200</pubDate>
-      <guid>http://localhost:1313/en/tutorials/r_install/</guid>
-      <description>Installing R and RStudio 1. Installing R Install the latest version of R (4.3.1 as of September 5, 2023). R itself is similar to an engine and chassis of a car, that is a bare minimum so that you can start driving. You need to follow steps below:&#xA;Visit https://cran.r-project.org and click on &amp;ldquo;Download R for &amp;hellip;&amp;rdquo;, where &amp;hellip; corresponds to your operating system. Depending on the operating system: For Mac: download &amp;ldquo;R-4.</description>
+      <guid>http://localhost:1313/en/tutorials/r_install/index.html</guid>
+      <description>Installing R and RStudio 1. Installing R Install the latest version of R (4.3.1 as of September 5, 2023). R itself is similar to an engine and chassis of a car, that is a bare minimum so that you can start driving. You need to follow steps below:&#xA;Visit https://cran.r-project.org and click on “Download R for …”, where … corresponds to your operating system. Depending on the operating system: For Mac: download “R-4.3.1-arm64.pkg”, open this file, and install R; For Windows: click on “base”, “Download R-4.3.1 for Windows”, and download the .exe file. Open it, and install R. Note: If you are a Mac user and you see similar to the following warning messages during the startup</description>
     </item>
     <item>
       <title>Project-oriented workflow</title>
-      <link>http://localhost:1313/en/tutorials/workflow/</link>
+      <link>http://localhost:1313/en/tutorials/workflow/index.html</link>
       <pubDate>Mon, 03 Sep 2018 11:19:38 +0200</pubDate>
-      <guid>http://localhost:1313/en/tutorials/workflow/</guid>
-      <description>It’s like agreeing that we will all drive on the left or the right. A hallmark of civilization is following conventions that constrain your behavior a little, in the name of public safety. Jenny Bryan Introduction In this tutorial we will learn key aspects of making a good research project:&#xA;reproducible portable self-contained In data science context, reproducibility means that the whole analysis can be recreated (or repeated) from the fresh start and raw data and get exactly the same results.</description>
+      <guid>http://localhost:1313/en/tutorials/workflow/index.html</guid>
+      <description>It’s like agreeing that we will all drive on the left or the right. A hallmark of civilization is following conventions that constrain your behavior a little, in the name of public safety. Jenny Bryan Introduction In this tutorial we will learn key aspects of making a good research project:&#xA;reproducible portable self-contained In data science context, reproducibility means that the whole analysis can be recreated (or repeated) from the fresh start and raw data and get exactly the same results. It means, for instance, that if the analysis involves generating random numbers, then one has to set a seed (an initial state of a random generator) to obtain the same random split each time. Ideally, everyone should also have an access to data and software to replicate your analysis (it is not always the case, since data can be private).</description>
     </item>
   </channel>
 </rss>

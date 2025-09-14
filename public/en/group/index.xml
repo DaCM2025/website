@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Groups on Programming tools for data science</title>
-    <link>http://localhost:1313/en/group/</link>
-    <description>Recent content in Groups on Programming tools for data science</description>
+    <title>Groups :: Data and Code Management: From Collection to Application</title>
+    <link>http://localhost:1313/en/group/index.html</link>
+    <description>Discover with whom you’re going to work with&#xA;Below are the groups. The number for the group has no meaning. The order within the group has no meaning.&#xA;Group 1 Group 2 Group 3 Group 4 Group 5 Group 6 Group 7 Fanny Iff Léo Wenger Alicia Gamal Ronald Medvedev Salvatore D’Amato Nathanaël Dürst Lodrik Adam Ambre Ferrari Urs Huerni Streuli Marvin Julien Keller Reisa Reci Hassan El Kira Jeff Macaraeg Elwin Freudiger Hugo Troendel Mariel Gandarillas Calderon Antoine Magnin Lina Dernaika Luca Marini Julien Perini Arnaud Aquin-Demierre Anastasia Pushkarev Marcela Choque Quispe Robin Michel Andrea Danesi Steve Marcello Emma Antille Olivier Dinh Valeriia Bilousko Sofia Daza Arandia Faber Bickerstaffe Thomas Bonnet Yanis Bougherara Herald Nakpil Maria Fernanda Cladera Melgar</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <atom:link href="http://localhost:1313/en/group/index.xml" rel="self" type="application/rss+xml" />

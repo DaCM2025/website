@@ -1,1183 +1,383 @@
 <!DOCTYPE html>
-<html lang="en" class="js csstransforms3d">
+<html lang="en-US" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="html">
   <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="generator" content="Hugo 0.126.2">
-    <meta name="description" content="This website provides the support for the class Programming tools in data science given at the Faculty of Business and Economics (HEC Lausanne) of the University of Lausanne in Fall (currently 2024)">
-<meta name="author" content="Samuel Orso">
-
-    <link rel="shortcut icon" href="https://www.unil.ch/favicon.ico" type="image/x-icon" />
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.142.0">
+    <meta name="generator" content="Relearn 8.0.1">
+    <meta name="description" content="Every Thursday from 9:00 to 12:00.
+The ideal schedule is given below. It is subject to modifications.
+Class-related discussion and questions will be on Slack. Do not forget to register here.
+Warning Exceptionnally the Practical on week 6 will be on Friday 24 Oct.
+Week Date Focus Session (3h) Homework 1 18 Sep 2025 Kick-off No class (Thesis &amp; Career workshops) – 2 25 Sep 2025 Introduction &amp; Tools (Lecture) - Course overview, expectations - Reproducibility in analytics - Tools: R, Python, SQL, GitHub, Markdown/Jupyter – 3 02 Oct 2025 Programming Foundations (Lecture) - Data structures (R &amp; Python)- Control structures &amp; functions- Good coding practices HW1 released (Programming foundations in R/Python) 4 09 Oct 2025 Practical 1 - R/Python coding drills (functions, loops, vectorization)- Git workflow practice HW1 discussed 5 16 Oct 2025 Data Management &amp; Collection (Lecture) - Relational databases &amp; SQL basics (SELECT, JOIN, GROUP BY)- Accessing SQL from R/Python- Web scraping (Rvest, BeautifulSoup)- APIs &amp; JSON- Storage formats &amp; best practices HW1 due HW2 released (SQL &#43; scraping/API integration) 6 24 Oct 2025 Practical 2 - SQL queries &#43; API/scraping mini-lab- Integrate results into R/Python HW2 discussed 7 30 Oct 2025 Software Engineering for Data Science (Lecture) - Object-oriented programming (R S3/S4, Python classes)- Functional programming- Package development- Testing &amp; documentation HW2 due HW3 released (functions, package basics, testing) 8 06 Nov 2025 Practical 3 - Functions &amp; package skeleton in R/Python- Documentation &amp; testing basics HW3 discussed 9 13 Nov 2025 Modern Tools: BI &amp; LLMs (Lecture) - Power BI for visualization &amp; storytelling- Prompt engineering for LLMs- Using LLMs for code/documentation/tests- AI copilots for analytics HW3 due 10 20 Nov 2025 Practical 4 - LLM lab: generate SQL queries, R/Python snippets- Build BI dashboard (Power BI/Shiny/Streamlit) – 11 27 Nov 2025 Project Work I - Group project supervision- Focus on reproducibility, integration, and communication – 12 04 Dec 2025 Project Work II - Group sprint: project review- Hands-on project development – 13 11 Dec 2025 Project Work III - Project refinement- Preparing final deliverables – 14 18 Dec 2025 Project Presentations - Final presentations –">
+    <meta name="author" content="Samuel Orso">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Lectures :: Data and Code Management: From Collection to Application">
+    <meta name="twitter:description" content="Every Thursday from 9:00 to 12:00.
+The ideal schedule is given below. It is subject to modifications.
+Class-related discussion and questions will be on Slack. Do not forget to register here.
+Warning Exceptionnally the Practical on week 6 will be on Friday 24 Oct.
+Week Date Focus Session (3h) Homework 1 18 Sep 2025 Kick-off No class (Thesis &amp; Career workshops) – 2 25 Sep 2025 Introduction &amp; Tools (Lecture) - Course overview, expectations - Reproducibility in analytics - Tools: R, Python, SQL, GitHub, Markdown/Jupyter – 3 02 Oct 2025 Programming Foundations (Lecture) - Data structures (R &amp; Python)- Control structures &amp; functions- Good coding practices HW1 released (Programming foundations in R/Python) 4 09 Oct 2025 Practical 1 - R/Python coding drills (functions, loops, vectorization)- Git workflow practice HW1 discussed 5 16 Oct 2025 Data Management &amp; Collection (Lecture) - Relational databases &amp; SQL basics (SELECT, JOIN, GROUP BY)- Accessing SQL from R/Python- Web scraping (Rvest, BeautifulSoup)- APIs &amp; JSON- Storage formats &amp; best practices HW1 due HW2 released (SQL &#43; scraping/API integration) 6 24 Oct 2025 Practical 2 - SQL queries &#43; API/scraping mini-lab- Integrate results into R/Python HW2 discussed 7 30 Oct 2025 Software Engineering for Data Science (Lecture) - Object-oriented programming (R S3/S4, Python classes)- Functional programming- Package development- Testing &amp; documentation HW2 due HW3 released (functions, package basics, testing) 8 06 Nov 2025 Practical 3 - Functions &amp; package skeleton in R/Python- Documentation &amp; testing basics HW3 discussed 9 13 Nov 2025 Modern Tools: BI &amp; LLMs (Lecture) - Power BI for visualization &amp; storytelling- Prompt engineering for LLMs- Using LLMs for code/documentation/tests- AI copilots for analytics HW3 due 10 20 Nov 2025 Practical 4 - LLM lab: generate SQL queries, R/Python snippets- Build BI dashboard (Power BI/Shiny/Streamlit) – 11 27 Nov 2025 Project Work I - Group project supervision- Focus on reproducibility, integration, and communication – 12 04 Dec 2025 Project Work II - Group sprint: project review- Hands-on project development – 13 11 Dec 2025 Project Work III - Project refinement- Preparing final deliverables – 14 18 Dec 2025 Project Presentations - Final presentations –">
+    <meta property="og:url" content="http://localhost:1313/en/lectures/index.html">
+    <meta property="og:site_name" content="Data and Code Management: From Collection to Application">
+    <meta property="og:title" content="Lectures :: Data and Code Management: From Collection to Application">
+    <meta property="og:description" content="Every Thursday from 9:00 to 12:00.
+The ideal schedule is given below. It is subject to modifications.
+Class-related discussion and questions will be on Slack. Do not forget to register here.
+Warning Exceptionnally the Practical on week 6 will be on Friday 24 Oct.
+Week Date Focus Session (3h) Homework 1 18 Sep 2025 Kick-off No class (Thesis &amp; Career workshops) – 2 25 Sep 2025 Introduction &amp; Tools (Lecture) - Course overview, expectations - Reproducibility in analytics - Tools: R, Python, SQL, GitHub, Markdown/Jupyter – 3 02 Oct 2025 Programming Foundations (Lecture) - Data structures (R &amp; Python)- Control structures &amp; functions- Good coding practices HW1 released (Programming foundations in R/Python) 4 09 Oct 2025 Practical 1 - R/Python coding drills (functions, loops, vectorization)- Git workflow practice HW1 discussed 5 16 Oct 2025 Data Management &amp; Collection (Lecture) - Relational databases &amp; SQL basics (SELECT, JOIN, GROUP BY)- Accessing SQL from R/Python- Web scraping (Rvest, BeautifulSoup)- APIs &amp; JSON- Storage formats &amp; best practices HW1 due HW2 released (SQL &#43; scraping/API integration) 6 24 Oct 2025 Practical 2 - SQL queries &#43; API/scraping mini-lab- Integrate results into R/Python HW2 discussed 7 30 Oct 2025 Software Engineering for Data Science (Lecture) - Object-oriented programming (R S3/S4, Python classes)- Functional programming- Package development- Testing &amp; documentation HW2 due HW3 released (functions, package basics, testing) 8 06 Nov 2025 Practical 3 - Functions &amp; package skeleton in R/Python- Documentation &amp; testing basics HW3 discussed 9 13 Nov 2025 Modern Tools: BI &amp; LLMs (Lecture) - Power BI for visualization &amp; storytelling- Prompt engineering for LLMs- Using LLMs for code/documentation/tests- AI copilots for analytics HW3 due 10 20 Nov 2025 Practical 4 - LLM lab: generate SQL queries, R/Python snippets- Build BI dashboard (Power BI/Shiny/Streamlit) – 11 27 Nov 2025 Project Work I - Group project supervision- Focus on reproducibility, integration, and communication – 12 04 Dec 2025 Project Work II - Group sprint: project review- Hands-on project development – 13 11 Dec 2025 Project Work III - Project refinement- Preparing final deliverables – 14 18 Dec 2025 Project Presentations - Final presentations –">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta itemprop="name" content="Lectures :: Data and Code Management: From Collection to Application">
+    <meta itemprop="description" content="Every Thursday from 9:00 to 12:00.
+The ideal schedule is given below. It is subject to modifications.
+Class-related discussion and questions will be on Slack. Do not forget to register here.
+Warning Exceptionnally the Practical on week 6 will be on Friday 24 Oct.
+Week Date Focus Session (3h) Homework 1 18 Sep 2025 Kick-off No class (Thesis &amp; Career workshops) – 2 25 Sep 2025 Introduction &amp; Tools (Lecture) - Course overview, expectations - Reproducibility in analytics - Tools: R, Python, SQL, GitHub, Markdown/Jupyter – 3 02 Oct 2025 Programming Foundations (Lecture) - Data structures (R &amp; Python)- Control structures &amp; functions- Good coding practices HW1 released (Programming foundations in R/Python) 4 09 Oct 2025 Practical 1 - R/Python coding drills (functions, loops, vectorization)- Git workflow practice HW1 discussed 5 16 Oct 2025 Data Management &amp; Collection (Lecture) - Relational databases &amp; SQL basics (SELECT, JOIN, GROUP BY)- Accessing SQL from R/Python- Web scraping (Rvest, BeautifulSoup)- APIs &amp; JSON- Storage formats &amp; best practices HW1 due HW2 released (SQL &#43; scraping/API integration) 6 24 Oct 2025 Practical 2 - SQL queries &#43; API/scraping mini-lab- Integrate results into R/Python HW2 discussed 7 30 Oct 2025 Software Engineering for Data Science (Lecture) - Object-oriented programming (R S3/S4, Python classes)- Functional programming- Package development- Testing &amp; documentation HW2 due HW3 released (functions, package basics, testing) 8 06 Nov 2025 Practical 3 - Functions &amp; package skeleton in R/Python- Documentation &amp; testing basics HW3 discussed 9 13 Nov 2025 Modern Tools: BI &amp; LLMs (Lecture) - Power BI for visualization &amp; storytelling- Prompt engineering for LLMs- Using LLMs for code/documentation/tests- AI copilots for analytics HW3 due 10 20 Nov 2025 Practical 4 - LLM lab: generate SQL queries, R/Python snippets- Build BI dashboard (Power BI/Shiny/Streamlit) – 11 27 Nov 2025 Project Work I - Group project supervision- Focus on reproducibility, integration, and communication – 12 04 Dec 2025 Project Work II - Group sprint: project review- Hands-on project development – 13 11 Dec 2025 Project Work III - Project refinement- Preparing final deliverables – 14 18 Dec 2025 Project Presentations - Final presentations –">
+    <meta itemprop="wordCount" content="351">
+    <title>Lectures :: Data and Code Management: From Collection to Application</title>
+    <link href="/en/lectures/index.xml" rel="alternate" type="application/rss+xml" title="Lectures :: Data and Code Management: From Collection to Application"><link rel="shortcut icon" href="https://www.unil.ch/favicon.ico" type="image/x-icon" />
 <link rel="icon" href="https://www.unil.ch/favicon.ico" type="image/x-icon" />
 
-    <title>Lectures :: Programming tools for data science</title>
-
-    
-    <link href="/css/nucleus.css?1732612576" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1732612576" rel="stylesheet">
-    <link href="/css/hybrid.css?1732612576" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1732612576" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1732612576" rel="stylesheet">
-    <link href="/css/auto-complete.css?1732612576" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1732612576" rel="stylesheet">
-    <link href="/css/theme.css?1732612576" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1732612576" rel="stylesheet">
-    
-      <link href="/css/theme-green.css?1732612576" rel="stylesheet">
-    
-
-    <script src="/js/jquery-3.3.1.min.js?1732612576"></script>
-
-    <style>
-      :root #header + #content > #left > #rlblock_left{
-          display:none !important;
-      }
-      
-    </style>
-    
+    <link href="/css/auto-complete/auto-complete.min.css?1757864199" rel="stylesheet">
+    <script src="/js/auto-complete/auto-complete.min.js?1757864199" defer></script>
+    <script src="/js/search-lunr.js?1757864199" defer></script>
+    <script src="/js/search.js?1757864199" defer></script>
     <script>
-  MathJax = {
-    tex: {
-      inlineMath: [['$', '$'], ['\\(', '\\)']],
-      displayMath: [['$$','$$'], ['\\[', '\\]']],
-      processEscapes: true,
-      processEnvironments: true
-    },
-    options: {
-      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
-    }
-  };
-
-  window.addEventListener('load', (event) => {
-      document.querySelectorAll("mjx-container").forEach(function(x){
-        x.parentElement.classList += 'has-jax'})
-    });
-
-</script>
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script type="text/javascript" id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-
-    
-  
-    
-      
-    
-  
-
-
+      window.relearn = window.relearn || {};
+      window.relearn.index_js_url="/searchindex.en.js?1757864199";
+    </script>
+    <script src="/js/lunr/lunr.min.js?1757864199" defer></script>
+    <script src="/js/lunr/lunr.stemmer.support.min.js?1757864199" defer></script>
+    <script src="/js/lunr/lunr.multi.min.js?1757864199" defer></script>
+    <script src="/js/lunr/lunr.en.min.js?1757864199" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.contentLangs=['en'];
+    </script>
+    <link href="/fonts/fontawesome/css/fontawesome-all.min.css?1757864199" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/fontawesome-all.min.css?1757864199" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1757864199" rel="stylesheet">
+    <link href="/css/theme.css?1757864199" rel="stylesheet">
+    <link href="/css/format-html.css?1757864199" rel="stylesheet" id="R-format-style">
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = ``;
+      window.relearn.path='\/lectures\/index.html';
+      window.relearn.relBasePath='..\/..';
+      window.relearn.relBaseUri='..\/..';
+      window.relearn.absBaseUri='http:\/\/localhost:1313';
+      window.relearn.disableAnchorCopy=false;
+      window.relearn.disableAnchorScrolling=false;
+      window.relearn.disableInlineCopyToClipboard=false;
+      window.relearn.enableBlockCodeWrap=true;
+      // legal
+      window.relearn.getItem = (s,n) => {return s.getItem(n)};
+      window.relearn.setItem = (s,n,v) => {return s.setItem(n,v)};
+      window.relearn.removeItem = (s,n) => {return s.removeItem(n)};
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+      // variant stuff
+      window.relearn.themevariants = [ 'auto', 'relearn-light', 'relearn-dark' ];
+      window.relearn.customvariantname = "my-custom-variant";
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant") ?? "";
+        if( variant == window.relearn.customvariantname ){
+        }else if( !variant || !window.relearn.themevariants.includes(variant) ){
+          variant = window.relearn.themevariants[0];
+          window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+    </script>
   </head>
-  <body class="" data-url="/en/lectures/">
-    <nav id="sidebar" class="">
+  <body class="mobile-support html" data-url="/en/lectures/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper"> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/en/index.html"><span itemprop="name">Data and Code Management</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Lectures</span><meta itemprop="position" content="2"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/en/syllabus/final/index.html" title="Convinced? (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/en/lectures/y24-25/index.html" title="2024-2025 (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable lectures" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
 
+<h1 id="lectures">Lectures</h1>
 
+<p>Every Thursday from 9:00 to 12:00.</p>
+<p>The ideal schedule is given below. It is subject to modifications.</p>
+<p>Class-related discussion and questions will be on Slack. Do not forget to register <a href="https://forms.gle/SKxLd56CuWhcSga79" rel="external" target="_blank">here</a>.</p>
 
-  <div id="header-wrapper">
-    <div id="header">
-      <a id="logo" href="/">
+<details open class=" box cstyle notices warning">
+  <summary class="box-label" tabindex="-1">
+    <i class="fa-fw fas fa-exclamation-triangle"></i> 
+    Warning
+  </summary>
+  <div class="box-content">
+<p>Exceptionnally the Practical on week 6 will be on Friday 24 Oct.</p>
+  </div>
+</details>
+<table>
+  <thead>
+      <tr>
+          <th>Week</th>
+          <th>Date</th>
+          <th>Focus</th>
+          <th>Session (3h)</th>
+          <th>Homework</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>1</td>
+          <td>18 Sep 2025</td>
+          <td>Kick-off</td>
+          <td>No class (Thesis &amp; Career workshops)</td>
+          <td>–</td>
+      </tr>
+      <tr>
+          <td>2</td>
+          <td>25 Sep 2025</td>
+          <td>Introduction &amp; Tools (Lecture)</td>
+          <td>- Course overview, expectations  - Reproducibility in analytics  - Tools: R, Python, SQL, GitHub, Markdown/Jupyter</td>
+          <td>–</td>
+      </tr>
+      <tr>
+          <td>3</td>
+          <td>02 Oct 2025</td>
+          <td>Programming Foundations (Lecture)</td>
+          <td>- Data structures (R &amp; Python)<!-- raw HTML omitted -->- Control structures &amp; functions<!-- raw HTML omitted -->- Good coding practices</td>
+          <td><strong>HW1 released</strong> (Programming foundations in R/Python)</td>
+      </tr>
+      <tr>
+          <td>4</td>
+          <td>09 Oct 2025</td>
+          <td>Practical 1</td>
+          <td>- R/Python coding drills (functions, loops, vectorization)<!-- raw HTML omitted -->- Git workflow practice</td>
+          <td><strong>HW1 discussed</strong></td>
+      </tr>
+      <tr>
+          <td>5</td>
+          <td>16 Oct 2025</td>
+          <td>Data Management &amp; Collection (Lecture)</td>
+          <td>- Relational databases &amp; SQL basics (SELECT, JOIN, GROUP BY)<!-- raw HTML omitted -->- Accessing SQL from R/Python<!-- raw HTML omitted -->- Web scraping (Rvest, BeautifulSoup)<!-- raw HTML omitted -->- APIs &amp; JSON<!-- raw HTML omitted -->- Storage formats &amp; best practices</td>
+          <td><strong>HW1 due</strong> <!-- raw HTML omitted --> <strong>HW2 released</strong> (SQL + scraping/API integration)</td>
+      </tr>
+      <tr>
+          <td>6</td>
+          <td><strong>24</strong> Oct 2025</td>
+          <td>Practical 2</td>
+          <td>- SQL queries + API/scraping mini-lab<!-- raw HTML omitted -->- Integrate results into R/Python</td>
+          <td><strong>HW2 discussed</strong></td>
+      </tr>
+      <tr>
+          <td>7</td>
+          <td>30 Oct 2025</td>
+          <td>Software Engineering for Data Science (Lecture)</td>
+          <td>- Object-oriented programming (R S3/S4, Python classes)<!-- raw HTML omitted -->- Functional programming<!-- raw HTML omitted -->- Package development<!-- raw HTML omitted -->- Testing &amp; documentation</td>
+          <td><strong>HW2 due</strong> <!-- raw HTML omitted --> <strong>HW3 released</strong> (functions, package basics, testing)</td>
+      </tr>
+      <tr>
+          <td>8</td>
+          <td>06 Nov 2025</td>
+          <td>Practical 3</td>
+          <td>- Functions &amp; package skeleton in R/Python<!-- raw HTML omitted -->- Documentation &amp; testing basics</td>
+          <td><strong>HW3 discussed</strong></td>
+      </tr>
+      <tr>
+          <td>9</td>
+          <td>13 Nov 2025</td>
+          <td>Modern Tools: BI &amp; LLMs (Lecture)</td>
+          <td>- Power BI for visualization &amp; storytelling<!-- raw HTML omitted -->- Prompt engineering for LLMs<!-- raw HTML omitted -->- Using LLMs for code/documentation/tests<!-- raw HTML omitted -->- AI copilots for analytics</td>
+          <td><strong>HW3 due</strong></td>
+      </tr>
+      <tr>
+          <td>10</td>
+          <td>20 Nov 2025</td>
+          <td>Practical 4</td>
+          <td>- LLM lab: generate SQL queries, R/Python snippets<!-- raw HTML omitted -->- Build BI dashboard (Power BI/Shiny/Streamlit)</td>
+          <td>–</td>
+      </tr>
+      <tr>
+          <td>11</td>
+          <td>27 Nov 2025</td>
+          <td>Project Work I</td>
+          <td>- Group project supervision<!-- raw HTML omitted -->- Focus on reproducibility, integration, and communication</td>
+          <td>–</td>
+      </tr>
+      <tr>
+          <td>12</td>
+          <td>04 Dec 2025</td>
+          <td>Project Work II</td>
+          <td>- Group sprint: project review<!-- raw HTML omitted -->- Hands-on project development</td>
+          <td>–</td>
+      </tr>
+      <tr>
+          <td>13</td>
+          <td>11 Dec 2025</td>
+          <td>Project Work III</td>
+          <td>- Project refinement<!-- raw HTML omitted -->- Preparing final deliverables</td>
+          <td>–</td>
+      </tr>
+      <tr>
+          <td>14</td>
+          <td>18 Dec 2025</td>
+          <td>Project Presentations</td>
+          <td>- Final presentations</td>
+          <td>–</td>
+      </tr>
+  </tbody>
+</table>
+
+  <footer class="footline">
+  </footer>
+</article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <div id="R-header" class="default-animation">
+<a id="logo" href="/">
 	<img src="https://raw.githubusercontent.com/SMAC-Group/ptds2018_website/master/data/hec_logo_white.png" alt="hec_logo" height="80" width="155">
 </a>
 
-    </div>
-    
-        <div class="searchbox">
-    <label for="search-by"><i class="fas fa-search"></i></label>
-    <input data-search-input id="search-by" type="search" placeholder="Search...">
-    <span data-search-clear=""><i class="fas fa-times"></i></span>
-</div>
-
-<script type="text/javascript" src="/js/lunr.min.js?1732612576"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1732612576"></script>
-<script type="text/javascript">
-    
-        var baseurl = "http:\/\/localhost:1313\/";
-    
-</script>
-<script type="text/javascript" src="/js/search.js?1732612576"></script>
-
-    
-  </div>
-
-    <div class="highlightable">
-    <ul class="topics">
-
-        
-          
-          
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/en/syllabus/" title="Syllabus" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/en/syllabus/">
-          Syllabus
-          
-      </a>
-      
-      
-        <ul>
-          
-          
-          
-          
-        
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/en/syllabus/general/" title="General information" class="dd-item ">
-        <a href="/en/syllabus/general/">
-        General information
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/en/syllabus/coursedescr/" title="Course description" class="dd-item ">
-        <a href="/en/syllabus/coursedescr/">
-        Course description
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/en/syllabus/grading/" title="Grading" class="dd-item ">
-        <a href="/en/syllabus/grading/">
-        Grading
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/en/syllabus/communication/" title="Communication" class="dd-item ">
-        <a href="/en/syllabus/communication/">
-        Communication
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/en/syllabus/material/" title="Material" class="dd-item ">
-        <a href="/en/syllabus/material/">
-        Material
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/en/syllabus/final/" title="Convinced?" class="dd-item ">
-        <a href="/en/syllabus/final/">
-        Convinced?
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-        
-        </ul>
-              
-    </li>
-  
- 
-
-          
-          
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/en/lectures/" title="Lectures" class="dd-item 
-        
-        active
-        
-        ">
-      <a href="/en/lectures/">
-          Lectures
-          
-      </a>
-      
-      
-        <ul>
-          
-          
-          
-          
-        
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/en/lectures/y23-24/" title="2023-2024" class="dd-item ">
-        <a href="/en/lectures/y23-24/">
-        2023-2024
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/en/lectures/y22-23/" title="2022-2023" class="dd-item ">
-        <a href="/en/lectures/y22-23/">
-        2022-2023
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/en/lectures/y21-22/" title="2021-2022" class="dd-item ">
-        <a href="/en/lectures/y21-22/">
-        2021-2022
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-        
-        </ul>
-              
-    </li>
-  
- 
-
-          
-          
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/en/tutorials/" title="Tutorials" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/en/tutorials/">
-          Tutorials
-          
-      </a>
-      
-      
-        <ul>
-          
-          
-          
-          
-        
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/en/tutorials/github/" title="Git(hub) setup" class="dd-item ">
-        <a href="/en/tutorials/github/">
-        Git(hub) setup
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/en/tutorials/r_install/" title="R/RStudio setup" class="dd-item ">
-        <a href="/en/tutorials/r_install/">
-        R/RStudio setup
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/en/tutorials/workflow/" title="Project-oriented workflow" class="dd-item ">
-        <a href="/en/tutorials/workflow/">
-        Project-oriented workflow
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-        
-        </ul>
-              
-    </li>
-  
- 
-
-          
-          
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/en/exercises/" title="Exercises" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/en/exercises/">
-          Exercises
-          
-      </a>
-      
-      
-        <ul>
-          
-          
-          
-          
-        
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/en/exercises/exercise1/" title="" class="dd-item ">
-        <a href="/en/exercises/exercise1/">
-        
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-        
-        </ul>
-              
-    </li>
-  
- 
-
-          
-          
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/en/project/" title="Project" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/en/project/">
-          Project
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-          
-          
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/en/group/" title="Groups" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/en/group/">
-          Groups
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-          
-          
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/en/resources/" title="Resources" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/en/resources/">
-          Resources
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-          
-         
-    </ul>
-
-    
-    
-      <section id="shortcuts">
-        <h3>More</h3>
-        <ul>
-          
-              <li> 
-                  <a class="padding" href="https://github.com/ptds2024/"><i class='fab fa-github'></i> Github repo</a>
-              </li>
-          
-              <li> 
-                  <a class="padding" href="https://forms.gle/9aKQ25idaypnmAJb8"><i class='fa fa-fw fa-users'></i> Discussion forum</a>
-              </li>
-          
-              <li> 
-                  <a class="padding" href="https://smac-group.github.io/ds/"><i class='fa fa-fw fa-book'></i> Lectures</a>
-              </li>
-          
-        </ul>
-      </section>
-    
-
-    
-    <section id="footer">
-      <p>Built with <a href="https://github.com/matcornic/hugo-theme-learn"><i class="fas fa-heart"></i></a> from <a href="https://getgrav.org">Grav</a> and <a href="https://gohugo.io/">Hugo</a></p>
-
-    </section>
-  </div>
-</nav>
-
-
-
-
-        <section id="body">
-        <div id="overlay"></div>
-        <div class="padding highlightable">
-              
-              <div>
-                <div id="top-bar">
-                
-                
-                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
-                    <span id="sidebar-toggle-span">
-                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
-                          <i class="fas fa-bars"></i>
-                        </a>
-                    </span>
-                  
-                  <span class="links">
-                 
-                 
-                    
-          
-          
-            
-            
-          
-          
-            <a href='/en/'>Programming tools in data science</a> > Lectures
-          
-         
-          
-        
-                 
-                  </span>
-                </div>
-                
-              </div>
-            </div>
-            
-        <div id="head-tags">
-        
         </div>
-        
-          <div id="chapter">
-        
-        <div id="body-inner">
-          
-
-        
-
-
-
-
-	<h1 id="lectures">Lectures</h1>
-<p>Every Thursday from 9:00 to 12:00.</p>
-<p>The ideal schedule is given below. It is subject to modifications.</p>
-<p>Class-related discussion and questions will be on Slack. Do not forget to register <a href="https://forms.gle/9aKQ25idaypnmAJb8">here</a>.</p>
-
-<div class="notices warning" ><p>The lecture of the 31st of October was on Zoom. The record is on this <a href="https://unil.zoom.us/rec/share/XiOP_aFUDuT9DnTH3lRnHRaDjk24p58ZtAdYXbYeC0VluOT5Ia8U9waSvZWU69pK.oa_J3VM47VR3DUMA?startTime=1730361683000">link</a>, passcode: 8a=3P!BE.</p>
-</div>
-
-<table>
-<thead>
-<tr>
-<th>Week</th>
-<th>Date</th>
-<th>Topic</th>
-<th>Instructor</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>19 Sept</td>
-<td>No class (<em>Thesis planning &amp; Career planning workshops</em>)</td>
-<td></td>
-</tr>
-<tr>
-<td>2</td>
-<td>26 Sept</td>
-<td><a href="https://ptds2024.github.io/class/lecture01">Introduction</a>, <a href="https://ptds2024.github.io/class/lecture02_markdown">RMarkdown</a>, <a href="https://ptds2024.github.io/class/lecture03_github">Github</a>, <a href="https://ptds2024.github.io/class/lecture13_project">Project</a></td>
-<td>Samuel</td>
-</tr>
-<tr>
-<td>3</td>
-<td>3 Oct</td>
-<td><a href="https://ptds2024.github.io/class/lecture04_datastructure">Data structures</a>, <a href="https://ptds2024.github.io/class/lecture05_controlstructure">Control structures</a>, <a href="https://ptds2024.github.io/class/lecture06_function">Function</a></td>
-<td>Samuel</td>
-</tr>
-<tr>
-<td>4</td>
-<td>10 Oct</td>
-<td>Exercise and Homework 1</td>
-<td>Timofei</td>
-</tr>
-<tr>
-<td>5</td>
-<td>17 Oct</td>
-<td><a href="https://ptds2024.github.io/class/lecture07_OOP">Object-oriented programming</a>, <a href="https://ptds2024.github.io/class/lecture08_webscrap">Webscraping</a>, <a href="https://ptds2024.github.io/class/lecture09_shiny">Shiny App</a></td>
-<td>Samuel</td>
-</tr>
-<tr>
-<td>6</td>
-<td>24 Oct</td>
-<td>Exercise and Homework 2</td>
-<td>Timofei</td>
-</tr>
-<tr>
-<td>7</td>
-<td>31 Oct</td>
-<td><a href="https://ptds2024.github.io/class/lecture10_functional">Functional programming</a>, <a href="https://ptds2024.github.io/class/lecture11_pkg">Package creation</a>, <a href="https://ptds2024.github.io/class/lecture12_shiny2">Advanced shiny App</a>,</td>
-<td>Samuel</td>
-</tr>
-<tr>
-<td>8</td>
-<td>7 Nov</td>
-<td>Exercise and Homework 3</td>
-<td>Timofei</td>
-</tr>
-<tr>
-<td>9</td>
-<td>14 Nov</td>
-<td><a href="https://ptds2024.github.io/class/lecture13_googlecloud">Data science with R on Google Cloud</a></td>
-<td>Samuel</td>
-</tr>
-<tr>
-<td>9</td>
-<td>21 Nov</td>
-<td>Power BI, final class</td>
-<td>Samuel</td>
-</tr>
-<tr>
-<td>11</td>
-<td>28 Nov</td>
-<td>Group Project</td>
-<td>Timofei</td>
-</tr>
-<tr>
-<td>12</td>
-<td>5 Dec</td>
-<td>Group project</td>
-<td>Timofei</td>
-</tr>
-<tr>
-<td>13</td>
-<td>12 Dec</td>
-<td>Group project</td>
-<td>Timofei</td>
-</tr>
-<tr>
-<td>14</td>
-<td>19 Dec</td>
-<td>Project Presentations</td>
-<td>Samuel and Timofei</td>
-</tr>
-</tbody>
-</table>
-
-
-
-
-
-<footer class=" footline" >
-	
-</footer>
-
-        
-            </div> 
-        
-        </div> 
-        
-
+        <search><form action="/en/search/index.html" method="get">
+          <div class="searchbox default-animation">
+            <button class="search-detail" type="submit" title="Search (CTRL+ALT+f)"><i class="fas fa-search"></i></button>
+            <label class="a11y-only" for="R-search-by">Search</label>
+            <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
+            <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-times" title="Clear search"></i></button>
+          </div>
+        </form></search>
       </div>
-
-    <div id="navigation">
-        
-        
-        
-        
-            
-            
-                
-                    
-                    
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-        
-        
-
-
-	 
-	 
-		
-			<a class="nav nav-prev" href="/en/syllabus/final/" title="Convinced?"> <i class="fa fa-chevron-left"></i></a>
-		
-		
-			<a class="nav nav-next" href="/en/lectures/y23-24/" title="2023-2024" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
-		
-	
-    </div>
-
-    </section>
-    
-    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
-      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
-    </div>
-    <script src="/js/clipboard.min.js?1732612576"></script>
-    <script src="/js/perfect-scrollbar.min.js?1732612576"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1732612576"></script>
-    <script src="/js/jquery.sticky.js?1732612576"></script>
-    <script src="/js/featherlight.min.js?1732612576"></script>
-    <script src="/js/highlight.pack.js?1732612576"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1732612576"></script>
-    <script src="/js/learn.js?1732612576"></script>
-    <script src="/js/hugo-learn.js?1732612576"></script>
-
-    <link href="/mermaid/mermaid.css?1732612576" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1732612576"></script>
-    <script>
-        mermaid.initialize({ startOnLoad: true });
-    </script>
-    
-
+      <div id="R-homelinks" class="default-animation homelinks">
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-homelinks">
+          <ul class="space collapsible-menu">
+            <li class="" data-nav-id="/en/index.html"><a class="padding" href="/en/index.html"><i class="fa-fw fas fa-home"></i> Home</a></li>
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-headercontrols">
+          <ul class="">
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div class="R-sidebarmenu R-shortcutmenu-main">
+          <ul class="enlarge morespace collapsible-menu">
+            <li class="" data-nav-id="/en/syllabus/index.html"><a class="padding" href="/en/syllabus/index.html">Syllabus</a><ul id="R-subsections-f4a0a25f1d93ea9001626ba1cfe331ee" class="collapsible-menu"></ul></li>
+            <li class="active parent " data-nav-id="/en/lectures/index.html"><a class="padding" href="/en/lectures/index.html">Lectures</a><ul id="R-subsections-bd2d5f2640929874ad03ea9fdcb748e9" class="collapsible-menu">
+            <li class="" data-nav-id="/en/lectures/y24-25/index.html"><a class="padding" href="/en/lectures/y24-25/index.html">2024-2025</a></li>
+            <li class="" data-nav-id="/en/lectures/y23-24/index.html"><a class="padding" href="/en/lectures/y23-24/index.html">2023-2024</a></li>
+            <li class="" data-nav-id="/en/lectures/y22-23/index.html"><a class="padding" href="/en/lectures/y22-23/index.html">2022-2023</a></li>
+            <li class="" data-nav-id="/en/lectures/y21-22/index.html"><a class="padding" href="/en/lectures/y21-22/index.html">2021-2022</a></li></ul></li>
+            <li class="" data-nav-id="/en/tutorials/index.html"><a class="padding" href="/en/tutorials/index.html">Tutorials</a><ul id="R-subsections-e1e8c1e70c5500b49e8dda2dc550651a" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/en/exercises/index.html"><a class="padding" href="/en/exercises/index.html">Exercises</a></li>
+            <li class="" data-nav-id="/en/homeworks/index.html"><a class="padding" href="/en/homeworks/index.html">Homeworks</a></li>
+            <li class="" data-nav-id="/en/project/index.html"><a class="padding" href="/en/project/index.html">Project</a></li>
+            <li class="" data-nav-id="/en/group/index.html"><a class="padding" href="/en/group/index.html">Groups</a></li>
+            <li class="" data-nav-id="/en/resources/index.html"><a class="padding" href="/en/resources/index.html">Resources</a></li>
+          </ul>
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-shortcuts">
+          <div class="nav-title padding">More</div>
+          <ul class="space collapsible-menu">
+            <li class="" data-nav-id="https://github.com/DaCM2025/"><a class="padding" href="https://github.com/DaCM2025/" rel="external" target="_blank"><i class='fab fa-github'></i> Github repo</a></li>
+            <li class="" data-nav-id="https://smac-group.github.io/ds/"><a class="padding" href="https://smac-group.github.io/ds/" rel="external" target="_blank"><i class='fa fa-fw fa-book'></i> Lectures</a></li>
+          </ul>
+        </div>
+        <div id="R-footer-margin"></div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-footercontrols">
+          <ul class="">
+            <li class="R-variantswitcher">
+              <div class="padding menu-control">
+                <i class="fa-fw fas fa-paint-brush"></i>
+                <span>&nbsp;</span>
+                <div class="control-style">
+                  <label class="a11y-only" for="R-select-variant">Theme</label>
+                  <select id="R-select-variant">
+                    <option id="R-select-variant-auto" value="auto" selected>Auto</option>
+                    <option id="R-select-variant-relearn-light" value="relearn-light">Relearn Light</option>
+                    <option id="R-select-variant-relearn-dark" value="relearn-dark">Relearn Dark</option>
+                  </select>
+                </div>
+                <div class="clear"></div>
+              </div>
+              <script>window.relearn.markVariant();</script>
+            </li>
+          </ul>
+        </div>
+<div id="R-footer"><p>Built with <a href="https://github.com/McShelby/hugo-theme-relearn" title="love"><i class="fas fa-heart"></i></a> by <a href="https://gohugo.io/">Hugo</a></p></div>
+      </div>
+    </aside>
+    <script src="/js/clipboard/clipboard.min.js?1757864199" defer></script>
+    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1757864199" defer></script>
+    <script src="/js/theme.js?1757864199" defer></script>
   </body>
 </html>

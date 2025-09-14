@@ -1,6 +1,5 @@
 +++
 title = "Convinced?"
-date =  2018-08-17T13:39:19+02:00
 weight = 30
 +++
 

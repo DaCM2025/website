@@ -1,55 +1,81 @@
 +++
 title = "Grading"
-date =  2018-08-09T16:46:59+02:00
 weight = 15
 +++
 
-Learning outcomes will be assessed based on the performances within each of the following categories:
+Learning outcomes for this course are assessed continuously through **homework assignments** and a **semester-long group project**.  
+There is **no final exam**. Instead, evaluation reflects your ability to apply the course material in practice and to collaborate effectively.
 
-Type | Points 
+---
+
+## Grading Breakdown
+
+Type | Weight
 :-- | :-- 
-Semester project | 30 
-Homeworks | 30 
+Homeworks (3 × 20%) | 60% 
+Group project | 40% 
+Participation & engagement | Bonus 
 
-{{% notice info %}}
-There won't be a final examination for this course. Instead, your progress towards achieving the learning outcomes will be continuously evaluated throughout the semester via homework assignments, the project, and your active participation.
-{{% /notice %}}
+---
 
-### Semester project
-The final project offers a chance to integrate the knowledge acquired throughout the course and apply it to a real-world scenario. All projects are collaborative efforts conducted in groups. Specific details regarding the semester project will be discussed during class sessions, and students will be able to choose from various project formats (please refer to the [project page]({{<\relref "project/_index.md">}}) for more information).
+### Homeworks (60%)
+There will be **three homework assignments** (20% each), aligned with the major course blocks:  
 
-The grading for this project, worth 30 points, is based on the following criteria:
+1. **HW1 (Weeks 3–5):** Programming foundations in R and Python.  
+2. **HW2 (Weeks 5–7):** SQL queries, web scraping, and API integration.  
+3. **HW3 (Weeks 7–9):** Software engineering for data science (functions, packages, testing, documentation).  
 
-- **Overall quality**
-- **Interest and complexity of the subject**
-- **Presentation**
-- **Screencast**
-- **Shiny app**
-- **Provided documentation**
-- **R package**
-- **GitHub repository**
-- **Website**
+Each homework is:  
+- **Released during a lecture** (Weeks 3, 5, 7).  
+- **Discussed the following week** in the practical (Weeks 4, 6, 8).  
+- **Due the week after** (Weeks 5, 7, 9).  
 
-These aspects collectively determine the assessment of your project.
-
-<!--The semester project are peer evaluated: every group grades the others and send a brief report to the instructors. The instructors grade as well the project. The final points obtained for the project is given by taking 50% of the instructors' grades and 50% of the average from the other groups' grades.-->
+Assignments are individual and must be submitted via GitHub Classroom.  
 
 {{% notice warning %}}
-It's crucial not to underestimate the workload associated with the project. Successful completion of this class necessitates effective planning and team management skills from the students.
+Late submissions are penalized **1 point per 24 hours** after the deadline, unless an extension is granted for documented reasons.
 {{% /notice %}}
 
-### Homeworks
-Throughout the semester, there are four homework assignments, each drawing from the course content. Each of these assignments is valued at 10 points. Detailed information about the specific requirements for these homework assignments can be found on the [homeworks page]({{<relref "homeworks/_index.md">}}).
+---
+
+### Group Project (40%)
+The semester project is the **capstone assignment**. Working in groups, you will design a **complete data pipeline**: from data collection and management (via SQL, APIs, web scraping) to analysis (R/Python), and finally to communication (dashboard, web app, or BI report).  
+
+Deliverables must be hosted on **GitHub** and be **fully reproducible**.  
+Evaluation criteria include:  
+
+- **Data pipeline & reproducibility** (SQL integration, scripts, documentation)  
+- **Code quality** (clarity, modularity, version control, testing, literate programming)  
+- **Application/visualization** (Shiny/Streamlit app, Power BI dashboard, or similar)  
+- **Final presentation** (clarity, storytelling, reflection on tools and methods)  
+
+Project timeline in the schedule:  
+- **Week 11:** Project supervision & integration check  
+- **Week 12:** Mid-term project review (practical session)  
+- **Week 13:** Refinement & preparation of deliverables  
+- **Week 14:** Final presentations & peer review  
 
 {{% notice warning %}}
-Late submission is penalized by 1 point every 24 hours after the deadline.
+The project requires significant teamwork, coordination, and planning. Start early!
 {{% /notice %}}
 
-<!--### Participation
-Participation is graded based on both [Piazza](https://piazza.com/unil.ch/fall2019/ptds2019/home) (see the [communication page](https://ptds.netlify.com/syllabus/communication/)) and in-class activities. There are five points for each. 
+---
 
-In order to earn full credit for the Piazza portion, each student should make 1 or more substantive posts per week (except during the first week) related to the content of the course. A post can be a reply to another student's question. Grading is based on Piazza meta-data that can only be accessed by an instructor.
+### Participation & Engagement (Bonus)
+Participation is **not mandatory** but can earn you a **bonus on the final grade**.  
+Students may volunteer to **present exercise corrections** during practical sessions.  
 
-Due to the structure of this class, attendance is very important. Moreover, students will be encouraged to work in teams on in-class activities each week, so others are counting on you to be in class and contribute. Students with valid excuse should notify the instructor as soon as possible and provide a minimum of one week notice.
+- Bonus points are awarded for **clarity, correctness, and effort**.  
+- Multiple contributions are possible, but the bonus is capped.  
+- The bonus can make a difference in **borderline cases** (e.g., raising a 3.5 to a 4.0).  
 
-Each lecture will have its own magic word that you are responsible for entering into a form link that will be provided on Piazza. In order to be eligible to receive attendance points, you must be in class, enter the magic word within 5 minutes after it is given, and stay for the entire duration of the class.-->
+---
+
+## Summary
+Your grade will be determined by:  
+- **60%** three homeworks (Weeks 3–9)  
+- **40%** semester-long group project (Weeks 11–14)  
+- **Bonus** for active engagement through exercise corrections  
+
+This structure rewards both **individual mastery** (homeworks) and **teamwork on applied projects**, while encouraging active participation.
+

@@ -1,13 +1,32 @@
 +++
-title = "Programming tools in data science"
+title = "Data and Code Management"
+description = "This website provides the support for the class Data and Code Management: From Collection to Application given at the Faculty of Business and Economics (HEC Lausanne) of the University of Lausanne in Fall (currently 2025)"
 +++
 
-# Programming tools in data science
+Welcome to the website of *Data and Code Management: From Collection to Application*, a course offered in the **Master in Business Analytics** at HEC Lausanne during the autumn semester 2025.
 
-Welcome to the website dedicated to *Programming Tools in Data Science*, a course offered at HEC Lausanne during the autumn semester of 2024-2025. The primary aim of this course is to provide an introduction to the [R programming language](https://www.r-project.org/) for aspiring data scientists. The core focus of this course revolves around concepts related to data manipulation, data analysis, data visualization, reproducible research, version control, and sharing of results.
+This course equips students with the **foundational tools and best practices of modern data science**, focusing on how to collect, manage, analyze, and share data in a **reproducible and collaborative way**.
 
-By the conclusion of this course, students will possess the ability to independently create their own R packages and Shiny apps. They will also gain proficiency in making their work accessible on GitHub, documenting their projects using literate programming techniques, and showcasing their efforts by creating a dedicated website.
+Throughout the semester, students will explore:
+
+* **Programming in R and Python** for data wrangling, visualization, and modeling.
+* **SQL and database management**, essential for business analytics and large-scale data handling.
+* **Version control with GitHub**, enabling collaboration and transparent workflows.
+* **Reproducible research** using RMarkdown and Jupyter.
+* **Software engineering practices** in data science (functions, testing, packages, documentation).
+* **Modern tools for communication and application**, including Power BI dashboards, Shiny apps, and Python web apps.
+* **Large Language Models (LLMs)** as assistants for coding, documentation, and analytics — used critically and responsibly.
+
+By the end of the course, students will be able to:
+
+* Build and document **reproducible data pipelines** across R, Python, and SQL.
+* Create and share **interactive applications** (Shiny, Streamlit, Power BI).
+* Manage projects and collaborate effectively using GitHub.
+* Package their work as professional deliverables — from code libraries to dashboards.
+* Critically integrate **AI-powered tools** into their analytical workflows.
+
+This course emphasizes **hands-on learning and project-based application**. Students will work in teams to develop a complete analytics project — from raw data collection to a polished, interactive presentation.
 
 {{% notice warning %}}
-The first class is on Thursday 26 September. The week before is dedicated to the **Thesis Writing Workshop** and **Career Planning Workshop**.
+The first class is on Thursday 26 September. 
 {{% /notice %}}

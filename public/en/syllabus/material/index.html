@@ -1,1143 +1,340 @@
 <!DOCTYPE html>
-<html lang="en" class="js csstransforms3d">
+<html lang="en-US" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="html">
   <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="generator" content="Hugo 0.126.2">
-    <meta name="description" content="This website provides the support for the class Programming tools in data science given at the Faculty of Business and Economics (HEC Lausanne) of the University of Lausanne in Fall (currently 2024)">
-<meta name="author" content="Samuel Orso">
-
-    <link rel="shortcut icon" href="https://www.unil.ch/favicon.ico" type="image/x-icon" />
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.142.0">
+    <meta name="generator" content="Relearn 8.0.1">
+    <meta name="description" content="Laptops Please bring a laptop to class if possible. We encourage collaborative work, and ideally we aim for at least one laptop for every two students. Both homework assignments and the group project involve coding and teamwork, so having access to a laptop will make your learning experience smoother.
+If you are considering purchasing a laptop, students from Swiss universities can benefit from preferential pricing through the Neptun Projekt or EPFL’s Poseidon.">
+    <meta name="author" content="Samuel Orso">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Material :: Data and Code Management: From Collection to Application">
+    <meta name="twitter:description" content="Laptops Please bring a laptop to class if possible. We encourage collaborative work, and ideally we aim for at least one laptop for every two students. Both homework assignments and the group project involve coding and teamwork, so having access to a laptop will make your learning experience smoother.
+If you are considering purchasing a laptop, students from Swiss universities can benefit from preferential pricing through the Neptun Projekt or EPFL’s Poseidon.">
+    <meta property="og:url" content="http://localhost:1313/en/syllabus/material/index.html">
+    <meta property="og:site_name" content="Data and Code Management: From Collection to Application">
+    <meta property="og:title" content="Material :: Data and Code Management: From Collection to Application">
+    <meta property="og:description" content="Laptops Please bring a laptop to class if possible. We encourage collaborative work, and ideally we aim for at least one laptop for every two students. Both homework assignments and the group project involve coding and teamwork, so having access to a laptop will make your learning experience smoother.
+If you are considering purchasing a laptop, students from Swiss universities can benefit from preferential pricing through the Neptun Projekt or EPFL’s Poseidon.">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="article">
+    <meta property="article:section" content="Syllabus">
+    <meta itemprop="name" content="Material :: Data and Code Management: From Collection to Application">
+    <meta itemprop="description" content="Laptops Please bring a laptop to class if possible. We encourage collaborative work, and ideally we aim for at least one laptop for every two students. Both homework assignments and the group project involve coding and teamwork, so having access to a laptop will make your learning experience smoother.
+If you are considering purchasing a laptop, students from Swiss universities can benefit from preferential pricing through the Neptun Projekt or EPFL’s Poseidon.">
+    <meta itemprop="wordCount" content="385">
+    <title>Material :: Data and Code Management: From Collection to Application</title><link rel="shortcut icon" href="https://www.unil.ch/favicon.ico" type="image/x-icon" />
 <link rel="icon" href="https://www.unil.ch/favicon.ico" type="image/x-icon" />
 
-    <title>Material :: Programming tools for data science</title>
-
-    
-    <link href="/css/nucleus.css?1732612576" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1732612576" rel="stylesheet">
-    <link href="/css/hybrid.css?1732612576" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1732612576" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1732612576" rel="stylesheet">
-    <link href="/css/auto-complete.css?1732612576" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1732612576" rel="stylesheet">
-    <link href="/css/theme.css?1732612576" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1732612576" rel="stylesheet">
-    
-      <link href="/css/theme-green.css?1732612576" rel="stylesheet">
-    
-
-    <script src="/js/jquery-3.3.1.min.js?1732612576"></script>
-
-    <style>
-      :root #header + #content > #left > #rlblock_left{
-          display:none !important;
-      }
-      
-    </style>
-    
+    <link href="/css/auto-complete/auto-complete.min.css?1757864199" rel="stylesheet">
+    <script src="/js/auto-complete/auto-complete.min.js?1757864199" defer></script>
+    <script src="/js/search-lunr.js?1757864199" defer></script>
+    <script src="/js/search.js?1757864199" defer></script>
     <script>
-  MathJax = {
-    tex: {
-      inlineMath: [['$', '$'], ['\\(', '\\)']],
-      displayMath: [['$$','$$'], ['\\[', '\\]']],
-      processEscapes: true,
-      processEnvironments: true
-    },
-    options: {
-      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
-    }
-  };
-
-  window.addEventListener('load', (event) => {
-      document.querySelectorAll("mjx-container").forEach(function(x){
-        x.parentElement.classList += 'has-jax'})
-    });
-
-</script>
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script type="text/javascript" id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-
-    
-  
-    
-      
-    
-  
-
-
+      window.relearn = window.relearn || {};
+      window.relearn.index_js_url="/searchindex.en.js?1757864199";
+    </script>
+    <script src="/js/lunr/lunr.min.js?1757864199" defer></script>
+    <script src="/js/lunr/lunr.stemmer.support.min.js?1757864199" defer></script>
+    <script src="/js/lunr/lunr.multi.min.js?1757864199" defer></script>
+    <script src="/js/lunr/lunr.en.min.js?1757864199" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.contentLangs=['en'];
+    </script>
+    <link href="/fonts/fontawesome/css/fontawesome-all.min.css?1757864199" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/fontawesome-all.min.css?1757864199" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1757864199" rel="stylesheet">
+    <link href="/css/theme.css?1757864199" rel="stylesheet">
+    <link href="/css/format-html.css?1757864199" rel="stylesheet" id="R-format-style">
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = ``;
+      window.relearn.path='\/syllabus\/material\/index.html';
+      window.relearn.relBasePath='..\/..\/..';
+      window.relearn.relBaseUri='..\/..\/..';
+      window.relearn.absBaseUri='http:\/\/localhost:1313';
+      window.relearn.disableAnchorCopy=false;
+      window.relearn.disableAnchorScrolling=false;
+      window.relearn.disableInlineCopyToClipboard=false;
+      window.relearn.enableBlockCodeWrap=true;
+      // legal
+      window.relearn.getItem = (s,n) => {return s.getItem(n)};
+      window.relearn.setItem = (s,n,v) => {return s.setItem(n,v)};
+      window.relearn.removeItem = (s,n) => {return s.removeItem(n)};
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+      // variant stuff
+      window.relearn.themevariants = [ 'auto', 'relearn-light', 'relearn-dark' ];
+      window.relearn.customvariantname = "my-custom-variant";
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant") ?? "";
+        if( variant == window.relearn.customvariantname ){
+        }else if( !variant || !window.relearn.themevariants.includes(variant) ){
+          variant = window.relearn.themevariants[0];
+          window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+    </script>
   </head>
-  <body class="" data-url="/en/syllabus/material/">
-    <nav id="sidebar" class="">
-
-
-
-  <div id="header-wrapper">
-    <div id="header">
-      <a id="logo" href="/">
-	<img src="https://raw.githubusercontent.com/SMAC-Group/ptds2018_website/master/data/hec_logo_white.png" alt="hec_logo" height="80" width="155">
-</a>
-
-    </div>
-    
-        <div class="searchbox">
-    <label for="search-by"><i class="fas fa-search"></i></label>
-    <input data-search-input id="search-by" type="search" placeholder="Search...">
-    <span data-search-clear=""><i class="fas fa-times"></i></span>
-</div>
-
-<script type="text/javascript" src="/js/lunr.min.js?1732612576"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1732612576"></script>
-<script type="text/javascript">
-    
-        var baseurl = "http:\/\/localhost:1313\/";
-    
-</script>
-<script type="text/javascript" src="/js/search.js?1732612576"></script>
-
-    
-  </div>
-
-    <div class="highlightable">
-    <ul class="topics">
-
-        
-          
-          
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/en/syllabus/" title="Syllabus" class="dd-item 
-        parent
-        
-        
-        ">
-      <a href="/en/syllabus/">
-          Syllabus
-          
-      </a>
-      
-      
-        <ul>
-          
-          
-          
-          
-        
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/en/syllabus/general/" title="General information" class="dd-item ">
-        <a href="/en/syllabus/general/">
-        General information
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/en/syllabus/coursedescr/" title="Course description" class="dd-item ">
-        <a href="/en/syllabus/coursedescr/">
-        Course description
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/en/syllabus/grading/" title="Grading" class="dd-item ">
-        <a href="/en/syllabus/grading/">
-        Grading
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/en/syllabus/communication/" title="Communication" class="dd-item ">
-        <a href="/en/syllabus/communication/">
-        Communication
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/en/syllabus/material/" title="Material" class="dd-item active">
-        <a href="/en/syllabus/material/">
-        Material
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/en/syllabus/final/" title="Convinced?" class="dd-item ">
-        <a href="/en/syllabus/final/">
-        Convinced?
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-        
-        </ul>
-              
-    </li>
-  
- 
-
-          
-          
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/en/lectures/" title="Lectures" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/en/lectures/">
-          Lectures
-          
-      </a>
-      
-      
-        <ul>
-          
-          
-          
-          
-        
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/en/lectures/y23-24/" title="2023-2024" class="dd-item ">
-        <a href="/en/lectures/y23-24/">
-        2023-2024
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/en/lectures/y22-23/" title="2022-2023" class="dd-item ">
-        <a href="/en/lectures/y22-23/">
-        2022-2023
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/en/lectures/y21-22/" title="2021-2022" class="dd-item ">
-        <a href="/en/lectures/y21-22/">
-        2021-2022
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-        
-        </ul>
-              
-    </li>
-  
- 
-
-          
-          
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/en/tutorials/" title="Tutorials" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/en/tutorials/">
-          Tutorials
-          
-      </a>
-      
-      
-        <ul>
-          
-          
-          
-          
-        
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/en/tutorials/github/" title="Git(hub) setup" class="dd-item ">
-        <a href="/en/tutorials/github/">
-        Git(hub) setup
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/en/tutorials/r_install/" title="R/RStudio setup" class="dd-item ">
-        <a href="/en/tutorials/r_install/">
-        R/RStudio setup
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/en/tutorials/workflow/" title="Project-oriented workflow" class="dd-item ">
-        <a href="/en/tutorials/workflow/">
-        Project-oriented workflow
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-        
-        </ul>
-              
-    </li>
-  
- 
-
-          
-          
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/en/exercises/" title="Exercises" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/en/exercises/">
-          Exercises
-          
-      </a>
-      
-      
-        <ul>
-          
-          
-          
-          
-        
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/en/exercises/exercise1/" title="" class="dd-item ">
-        <a href="/en/exercises/exercise1/">
-        
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-        
-        </ul>
-              
-    </li>
-  
- 
-
-          
-          
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/en/project/" title="Project" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/en/project/">
-          Project
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-          
-          
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/en/group/" title="Groups" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/en/group/">
-          Groups
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-          
-          
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/en/resources/" title="Resources" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/en/resources/">
-          Resources
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-          
-         
-    </ul>
-
-    
-    
-      <section id="shortcuts">
-        <h3>More</h3>
-        <ul>
-          
-              <li> 
-                  <a class="padding" href="https://github.com/ptds2024/"><i class='fab fa-github'></i> Github repo</a>
-              </li>
-          
-              <li> 
-                  <a class="padding" href="https://forms.gle/9aKQ25idaypnmAJb8"><i class='fa fa-fw fa-users'></i> Discussion forum</a>
-              </li>
-          
-              <li> 
-                  <a class="padding" href="https://smac-group.github.io/ds/"><i class='fa fa-fw fa-book'></i> Lectures</a>
-              </li>
-          
-        </ul>
-      </section>
-    
-
-    
-    <section id="footer">
-      <p>Built with <a href="https://github.com/matcornic/hugo-theme-learn"><i class="fas fa-heart"></i></a> from <a href="https://getgrav.org">Grav</a> and <a href="https://gohugo.io/">Hugo</a></p>
-
-    </section>
-  </div>
-</nav>
-
-
-
-
-        <section id="body">
-        <div id="overlay"></div>
-        <div class="padding highlightable">
-              
-              <div>
-                <div id="top-bar">
-                
-                
-                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
-                    <span id="sidebar-toggle-span">
-                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
-                          <i class="fas fa-bars"></i>
-                        </a>
-                    </span>
-                  
-                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
-                  
-                  <span class="links">
-                 
-                 
-                    
-          
-          
-            
-            
-          
-          
-            
-            
-          
-          
-            <a href='/en/'>Programming tools in data science</a> > <a href='/en/syllabus/'>Syllabus</a> > Material
-          
-         
-          
-         
-          
-        
-                 
-                  </span>
-                </div>
-                
-                    <div class="progress">
-    <div class="wrapper">
-<nav id="TableOfContents">
+  <body class="mobile-support html" data-url="/en/syllabus/material/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+<nav class="TableOfContents">
   <ul>
     <li>
       <ul>
         <li><a href="#laptops">Laptops</a></li>
-        <li><a href="#os">OS</a></li>
-        <li><a href="#textbooks">Textbooks</a></li>
+        <li><a href="#operating-systems">Operating Systems</a></li>
+        <li><a href="#textbooks--learning-resources">Textbooks &amp; Learning Resources</a></li>
         <li><a href="#software">Software</a></li>
       </ul>
     </li>
   </ul>
 </nav>
-    </div>
-</div>
-
-                
+                </div>
               </div>
             </div>
-            
-        <div id="head-tags">
-        
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/en/index.html"><span itemprop="name">Data and Code Management</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/en/syllabus/index.html"><span itemprop="name">Syllabus</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Material</span><meta itemprop="position" content="3"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/en/syllabus/communication/index.html" title="Communication (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/en/syllabus/final/index.html" title="Convinced? (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        
-        <div id="body-inner">
-          
-            <h1>
-              
-              Material
-            </h1>
-          
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable syllabus" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
 
-        
-
-
+<h1 id="material">Material</h1>
 
 <h3 id="laptops">Laptops</h3>
-<p>Please consider bringing a laptop with you to class each week if you have one available. We encourage collaborative work among students, and ideally, we aim to have at least one laptop for every 2 to 3 students. Given that both homework assignments and the project involve team efforts, we recommend partnering with classmates who possess a laptop.</p>
-<p>In the event that you intend to purchase a laptop, please keep in mind that students from Swiss Universities can benefit from preferential pricing through the <a href="https://www.projektneptun.ch/">Neptun Projekt</a> or <a href="https://poseidon.epfl.ch/">EPFL&rsquo;s Poseidon</a>.</p>
+<p>Please bring a laptop to class if possible. We encourage <strong>collaborative work</strong>, and ideally we aim for at least one laptop for every two students. Both <strong>homework assignments</strong> and the <strong>group project</strong> involve coding and teamwork, so having access to a laptop will make your learning experience smoother.</p>
+<p>If you are considering purchasing a laptop, students from Swiss universities can benefit from preferential pricing through the <a href="https://www.projektneptun.ch/" rel="external" target="_blank">Neptun Projekt</a> or <a href="https://poseidon.epfl.ch/" rel="external" target="_blank">EPFL&rsquo;s Poseidon</a>.</p>
 
-<div class="notices note" ><p>You do not need to buy a laptop if you do not possess one.</p>
-</div>
-
-<h3 id="os">OS</h3>
-<p>It is possible to follow this class using Mac OS, Windows and Linux. Yes, Linux. Why not Linux?
-See <a href="https://itsfoss.com/linux-better-than-windows/">https://itsfoss.com/linux-better-than-windows/</a>,  <a href="https://www.profolus.com/topics/advantages-and-disadvantages-of-macos/">https://www.profolus.com/topics/advantages-and-disadvantages-of-macos/</a> and <a href="http://jobsinthefuture.com/index.php/2018/03/02/best-operating-system-os-for-data-science/">http://jobsinthefuture.com/index.php/2018/03/02/best-operating-system-os-for-data-science/</a>.</p>
-<h3 id="textbooks">Textbooks</h3>
-<p>This class is based on the online textbook:</p>
+<details open class=" box cstyle notices note">
+  <summary class="box-label" tabindex="-1">
+    <i class="fa-fw fas fa-exclamation-circle"></i> 
+    Note
+  </summary>
+  <div class="box-content">
+<p>You do not need to buy a new laptop if you do not have one — sharing with classmates is fine.</p>
+  </div>
+</details>
+<hr>
+<h3 id="operating-systems">Operating Systems</h3>
+<p>The course can be followed on <strong>MacOS, Windows, or Linux</strong>. All three operating systems are supported, and we provide installation guides for each. Linux remains a strong option for data science, but any modern laptop will work.</p>
+<hr>
+<h3 id="textbooks--learning-resources">Textbooks &amp; Learning Resources</h3>
+<p>There is no single required textbook. Instead, we rely on a combination of online books, documentation, and tutorials. All resources are <strong>freely available</strong> online.</p>
+<h4 id="core-references">Core References</h4>
 <ul>
-<li><strong>Required</strong>: <a href="http://r.smac-group.com">An Introduction to Statistical Programming Methods with R</a></li>
-</ul>
-<p>This document is under development and it is therefore preferable to always access the text online to be sure you are using the most up-to-date version. Due to its current development, you may encounter errors ranging from broken code to typos or poorly explained topics. If you do, please let us know! Simply add an issue to the <a href="https://github.com/SMAC-Group/ds/issues">GitHub repository</a> used for this document and we will make the changes as soon as possible. In addition, if you know RMarkdown and are familiar with GitHub, make a pull request and fix an issue yourself, otherwise, if you&rsquo;re not familiar with these tools, they will be explained later on in the book itself.</p>
-<p>The textbooks below are also recommended and are legally available online for free. The following texts will be heavily referenced:</p>
+<li><strong>R Programming</strong>
 <ul>
-<li><strong>Recommended</strong>: <a href="http://adv-r.had.co.nz/">Advanced R Programming</a> by Hadley Wickham</li>
-<li><strong>Recommended</strong>: <a href="http://r-pkgs.had.co.nz/">R Packages Hadley Wickham</a> by Hadley Wickham</li>
-<li><strong>Recommended</strong>: <a href="https://cran.r-project.org/doc/manuals/r-release/R-intro.pdf">An Introduction to R</a> by W. N. Venables, D. M. Smith, and the R Core Team</li>
-<li><strong>Recommended</strong>: <a href="https://bookdown.org/yihui/blogdown/">blogdown: Creating Websites with R Markdown</a> by Yihui Xie, Amber Thomas and Alison Presmanes Hill</li>
-<li><strong>Recommended</strong>: <a href="https://mastering-shiny.org/">Mastering Shiny</a> by Hadley Wickham</li>
-<li><strong>Recommended</strong>: <a href="https://happygitwithr.com/">Happy Git and GitHub for the useR</a> by Jennifer Bryan</li>
+<li><a href="https://r4ds.hadley.nz/" rel="external" target="_blank">R for Data Science</a> by Garrett Grolemund &amp; Hadley Wickham</li>
+<li><a href="https://adv-r.hadley.nz/" rel="external" target="_blank">Advanced R</a> by Hadley Wickham</li>
+<li><a href="https://r-pkgs.org/" rel="external" target="_blank">R Packages</a> by Hadley Wickham &amp; Jenny Bryan</li>
 </ul>
-<p>The following textbooks are helpful, but not necessary to succeed in the course:</p>
+</li>
+<li><strong>Python Programming</strong>
 <ul>
-<li><strong>Supplemental</strong>: <a href="https://bookdown.org/yihui/rmarkdown/">R Markdown: The Definitive Guide</a> by Yihui Xie, J. J. Allaire, Garrett Grolemund</li>
-<li><strong>Supplemental</strong>: <a href="https://github.com/hadley/ggplot2-book">ggplot2: Elegant Graphics for Data Analysis (2nd Edition - GitHub Only)</a> by Hadley Wickham</li>
-<li><strong>Supplemental</strong>: <a href="http://r4ds.had.co.nz/">R for Data Science</a> by Garrett Grolemund and Hadley Wickham</li>
-<li><strong>Supplemental</strong>: <a href="https://www.burns-stat.com/pages/Tutor/R_inferno.pdf">The R Inferno</a> by Patrick Burns</li>
-<li><strong>Supplemental</strong>: <a href="https://bookdown.org/rdpeng/rprogdatascience/">R Programming for Data Science</a> by Roger D. Peng</li>
-<li><strong>Supplemental</strong>: <a href="http://www.rcpp.org/book/">Seamless R and C++ integration with Rcpp</a> by Dirk Eddelbuettel</li>
-<li><strong>Supplemental</strong>: <a href="https://engineering-shiny.org/">Engineering Production-Grade Shiny Apps</a> by Colin Fay, Sébastien Rochette, Vincent Guyader, Cervan Girard</li>
+<li><a href="https://jakevdp.github.io/PythonDataScienceHandbook/" rel="external" target="_blank">Python Data Science Handbook</a> by Jake VanderPlas</li>
+<li><a href="https://www.oreilly.com/library/view/fluent-python-2nd/9781492056348/" rel="external" target="_blank">Fluent Python (2nd Edition)</a> by Luciano Ramalho</li>
 </ul>
-<p>We regrouped more references by category in the <a href="/en/resources/">resources page</a>.</p>
+</li>
+<li><strong>SQL &amp; Databases</strong>
+<ul>
+<li><a href="https://www.coursera.org/learn/sql-for-data-science" rel="external" target="_blank">SQL for Data Science (UC Davis / Coursera)</a></li>
+<li><a href="https://mode.com/sql-tutorial/" rel="external" target="_blank">Mode SQL Tutorial</a></li>
+</ul>
+</li>
+<li><strong>Reproducibility &amp; Collaboration</strong>
+<ul>
+<li><a href="https://happygitwithr.com/" rel="external" target="_blank">Happy Git and GitHub for the useR</a> by Jenny Bryan</li>
+<li><a href="https://git-scm.com/book/en/v2" rel="external" target="_blank">Pro Git Book</a> by Scott Chacon &amp; Ben Straub</li>
+</ul>
+</li>
+<li><strong>Business Intelligence &amp; Visualization</strong>
+<ul>
+<li><a href="https://learn.microsoft.com/en-us/power-bi/" rel="external" target="_blank">Power BI Documentation</a></li>
+<li><a href="https://mastering-shiny.org/" rel="external" target="_blank">Mastering Shiny</a> by Hadley Wickham</li>
+</ul>
+</li>
+<li><strong>Modern AI Tools</strong>
+<ul>
+<li><a href="https://www.promptingguide.ai/" rel="external" target="_blank">Prompt Engineering Guide</a></li>
+<li><a href="https://python.langchain.com/" rel="external" target="_blank">LangChain Documentation</a> (for Python + LLM integration)</li>
+</ul>
+</li>
+</ul>
+<h4 id="supplemental-resources">Supplemental Resources</h4>
+<ul>
+<li><a href="https://ggplot2-book.org/" rel="external" target="_blank">ggplot2: Elegant Graphics for Data Analysis</a> by Hadley Wickham</li>
+<li><a href="http://www.rcpp.org/book/" rel="external" target="_blank">Seamless R and C++ Integration with Rcpp</a> by Dirk Eddelbuettel</li>
+<li><a href="https://engineering-shiny.org/" rel="external" target="_blank">Engineering Production-Grade Shiny Apps</a> by Colin Fay et al.</li>
+<li><a href="https://effectivepython.com/" rel="external" target="_blank">Effective Python</a> by Brett Slatkin</li>
+</ul>
+<p>We regroup additional references by topic in the <a href="/en/resources/">resources page</a>.</p>
+<hr>
 <h3 id="software">Software</h3>
-<p>All the software we will be using are free for acamedic activities. The course will use and present the <a href="https://www.r-project.org/">R statistical computing language</a> as well as different parts of C++ through <a href="http://www.rcpp.org/">Rcpp</a>. The integrated developer environment that we will use to explore R is <a href="https://www.rstudio.com/products/rstudio/">RStudio IDE</a> made by <a href="https://www.rstudio.com/">RStudio Inc</a>.
-See <a href="https://blog.rstudio.com/2020/08/17/r-and-rstudio-the-interoperability-environment-for-data-analytics">https://blog.rstudio.com/2020/08/17/r-and-rstudio-the-interoperability-environment-for-data-analytics</a> for why it would be interesting as data scientist to use R/RStudio.</p>
+<p>All software used in this course is <strong>free and open source (or provided with academic licenses)</strong>. We will work with:</p>
+<ul>
+<li><strong>R</strong> (<a href="https://www.r-project.org/" rel="external" target="_blank">CRAN</a>) with <a href="https://posit.co/download/rstudio-desktop/" rel="external" target="_blank">RStudio IDE</a></li>
+<li><strong>Python</strong> (<a href="https://www.anaconda.com/" rel="external" target="_blank">Anaconda Distribution</a> or <a href="https://docs.conda.io/en/latest/miniconda.html" rel="external" target="_blank">Miniconda</a>)</li>
+<li><strong>SQL</strong> (via <a href="https://www.sqlite.org/" rel="external" target="_blank">SQLite</a>, <a href="https://www.postgresql.org/" rel="external" target="_blank">PostgreSQL</a>, and connectors in R/Python)</li>
+<li><strong>Git &amp; GitHub</strong> for version control and collaboration</li>
+<li><strong>Power BI Desktop</strong> (free academic license)</li>
+<li><strong>Optional AI assistants</strong> (e.g. ChatGPT, Copilot) for coding and documentation support</li>
+</ul>
+<p>Detailed installation guides will be provided before the first practical session.</p>
 
+  <footer class="footline">
+  </footer>
+</article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <div id="R-header" class="default-animation">
+<a id="logo" href="/">
+	<img src="https://raw.githubusercontent.com/SMAC-Group/ptds2018_website/master/data/hec_logo_white.png" alt="hec_logo" height="80" width="155">
+</a>
 
-<footer class="footline">
-	
-</footer>
-
-        
-        </div> 
-        
-
+        </div>
+        <search><form action="/en/search/index.html" method="get">
+          <div class="searchbox default-animation">
+            <button class="search-detail" type="submit" title="Search (CTRL+ALT+f)"><i class="fas fa-search"></i></button>
+            <label class="a11y-only" for="R-search-by">Search</label>
+            <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
+            <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-times" title="Clear search"></i></button>
+          </div>
+        </form></search>
       </div>
-
-    <div id="navigation">
-        
-        
-        
-        
-            
-            
-                
-                    
-                    
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-        
-        
-
-
-	 
-	 
-		
-			<a class="nav nav-prev" href="/en/syllabus/communication/" title="Communication"> <i class="fa fa-chevron-left"></i></a>
-		
-		
-			<a class="nav nav-next" href="/en/syllabus/final/" title="Convinced?" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
-		
-	
-    </div>
-
-    </section>
-    
-    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
-      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
-    </div>
-    <script src="/js/clipboard.min.js?1732612576"></script>
-    <script src="/js/perfect-scrollbar.min.js?1732612576"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1732612576"></script>
-    <script src="/js/jquery.sticky.js?1732612576"></script>
-    <script src="/js/featherlight.min.js?1732612576"></script>
-    <script src="/js/highlight.pack.js?1732612576"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1732612576"></script>
-    <script src="/js/learn.js?1732612576"></script>
-    <script src="/js/hugo-learn.js?1732612576"></script>
-
-    <link href="/mermaid/mermaid.css?1732612576" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1732612576"></script>
-    <script>
-        mermaid.initialize({ startOnLoad: true });
-    </script>
-    
-
+      <div id="R-homelinks" class="default-animation homelinks">
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-homelinks">
+          <ul class="space collapsible-menu">
+            <li class="" data-nav-id="/en/index.html"><a class="padding" href="/en/index.html"><i class="fa-fw fas fa-home"></i> Home</a></li>
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-headercontrols">
+          <ul class="">
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div class="R-sidebarmenu R-shortcutmenu-main">
+          <ul class="enlarge morespace collapsible-menu">
+            <li class="parent " data-nav-id="/en/syllabus/index.html"><a class="padding" href="/en/syllabus/index.html">Syllabus</a><ul id="R-subsections-f4a0a25f1d93ea9001626ba1cfe331ee" class="collapsible-menu">
+            <li class="" data-nav-id="/en/syllabus/general/index.html"><a class="padding" href="/en/syllabus/general/index.html">General information</a></li>
+            <li class="" data-nav-id="/en/syllabus/coursedescr/index.html"><a class="padding" href="/en/syllabus/coursedescr/index.html">Course description</a></li>
+            <li class="" data-nav-id="/en/syllabus/grading/index.html"><a class="padding" href="/en/syllabus/grading/index.html">Grading</a></li>
+            <li class="" data-nav-id="/en/syllabus/communication/index.html"><a class="padding" href="/en/syllabus/communication/index.html">Communication</a></li>
+            <li class="active " data-nav-id="/en/syllabus/material/index.html"><a class="padding" href="/en/syllabus/material/index.html">Material</a></li>
+            <li class="" data-nav-id="/en/syllabus/final/index.html"><a class="padding" href="/en/syllabus/final/index.html">Convinced?</a></li></ul></li>
+            <li class="" data-nav-id="/en/lectures/index.html"><a class="padding" href="/en/lectures/index.html">Lectures</a><ul id="R-subsections-bd2d5f2640929874ad03ea9fdcb748e9" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/en/tutorials/index.html"><a class="padding" href="/en/tutorials/index.html">Tutorials</a><ul id="R-subsections-e1e8c1e70c5500b49e8dda2dc550651a" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/en/exercises/index.html"><a class="padding" href="/en/exercises/index.html">Exercises</a></li>
+            <li class="" data-nav-id="/en/homeworks/index.html"><a class="padding" href="/en/homeworks/index.html">Homeworks</a></li>
+            <li class="" data-nav-id="/en/project/index.html"><a class="padding" href="/en/project/index.html">Project</a></li>
+            <li class="" data-nav-id="/en/group/index.html"><a class="padding" href="/en/group/index.html">Groups</a></li>
+            <li class="" data-nav-id="/en/resources/index.html"><a class="padding" href="/en/resources/index.html">Resources</a></li>
+          </ul>
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-shortcuts">
+          <div class="nav-title padding">More</div>
+          <ul class="space collapsible-menu">
+            <li class="" data-nav-id="https://github.com/DaCM2025/"><a class="padding" href="https://github.com/DaCM2025/" rel="external" target="_blank"><i class='fab fa-github'></i> Github repo</a></li>
+            <li class="" data-nav-id="https://smac-group.github.io/ds/"><a class="padding" href="https://smac-group.github.io/ds/" rel="external" target="_blank"><i class='fa fa-fw fa-book'></i> Lectures</a></li>
+          </ul>
+        </div>
+        <div id="R-footer-margin"></div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-footercontrols">
+          <ul class="">
+            <li class="R-variantswitcher">
+              <div class="padding menu-control">
+                <i class="fa-fw fas fa-paint-brush"></i>
+                <span>&nbsp;</span>
+                <div class="control-style">
+                  <label class="a11y-only" for="R-select-variant">Theme</label>
+                  <select id="R-select-variant">
+                    <option id="R-select-variant-auto" value="auto" selected>Auto</option>
+                    <option id="R-select-variant-relearn-light" value="relearn-light">Relearn Light</option>
+                    <option id="R-select-variant-relearn-dark" value="relearn-dark">Relearn Dark</option>
+                  </select>
+                </div>
+                <div class="clear"></div>
+              </div>
+              <script>window.relearn.markVariant();</script>
+            </li>
+          </ul>
+        </div>
+<div id="R-footer"><p>Built with <a href="https://github.com/McShelby/hugo-theme-relearn" title="love"><i class="fas fa-heart"></i></a> by <a href="https://gohugo.io/">Hugo</a></p></div>
+      </div>
+    </aside>
+    <script src="/js/clipboard/clipboard.min.js?1757864199" defer></script>
+    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1757864199" defer></script>
+    <script src="/js/theme.js?1757864199" defer></script>
   </body>
 </html>
-

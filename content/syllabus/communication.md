@@ -1,6 +1,5 @@
 +++
 title = "Communication"
-date =  2019-08-09T16:46:51+02:00
 weight = 20
 +++
 

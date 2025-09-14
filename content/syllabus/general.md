@@ -6,11 +6,11 @@ weight = 5
 ### Location and Time
 
 - **Location:** Anthropole/3032
-- **Time:** 9 - 12 (see the [lectures schedule]({{<relref "lectures/_index.md">}}) for more details)
+- **Time:** 9 - 12 (see the [lectures schedule]({{% relref "lectures/_index.md" %}}) for more details)
 
 ### Course Websites
 
-* **Course website:**  <https://ptds.samorso.ch/>
+* **Course website:**  <https://dcm.samorso.ch/>
 * **Online textbook:**  <http://r.smac-group.com/>
 * **Discussion Forum:** on slack
 

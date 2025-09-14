@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Resources on Programming tools for data science</title>
-    <link>http://localhost:1313/en/resources/</link>
-    <description>Recent content in Resources on Programming tools for data science</description>
+    <title>Resources :: Data and Code Management: From Collection to Application</title>
+    <link>http://localhost:1313/en/resources/index.html</link>
+    <description>Resources Getting started with R and Rstudio The CRAN website CRAN is a network of ftp and web servers around the world that store identical, up-to-date, versions of R and its documentation.&#xA;An Introduction to R This official and up-to-date tutorial, gives an introduction to the language and how to use R for doing statistical analysis and graphics.&#xA;RStudio RStudio is an integrated development environment (IDE) for R. It includes a console, syntax-highlighting editor that supports direct code execution, as well as tools for plotting, history, debugging and workspace management.</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate></lastBuildDate>
