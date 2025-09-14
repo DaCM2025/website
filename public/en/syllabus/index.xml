@@ -6,7 +6,7 @@
     <description>Explore the nature of this course and understand its various prerequisites.</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 09 Aug 2019 16:46:51 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/en/syllabus/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>General information</title>
@@ -32,7 +32,7 @@
     <item>
       <title>Communication</title>
       <link>http://localhost:1313/en/syllabus/communication/index.html</link>
-      <pubDate>Fri, 09 Aug 2019 16:46:51 +0200</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/en/syllabus/communication/index.html</guid>
       <description>Slack We will utilize Slack for discussing class-related matters and addressing inquiries. This platform is designed to facilitate collaborative learning, leveraging the combined wisdom of your peers and instructors. Please feel free to share questions with the entire class, especially if they pertain to course content. We strongly encourage you to seek clarification if you encounter difficulties grasping a concept and to offer assistance to your fellow classmates whenever possible by responding to their queries.</description>
     </item>

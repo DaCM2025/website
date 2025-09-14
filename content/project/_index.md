@@ -4,8 +4,6 @@ weight = 25
 chapter = true
 +++
 
-# Project
-
 Project represents 30 points, so 50% of the final grade. 
 
 ![team-work](https://media.giphy.com/media/l3q2Wl7Wpz09Z5hfi/giphy.gif)

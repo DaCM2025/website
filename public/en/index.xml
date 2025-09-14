@@ -6,7 +6,7 @@
     <description>This website provides the support for the class Data and Code Management: From Collection to Application given at the Faculty of Business and Economics (HEC Lausanne) of the University of Lausanne in Fall (currently 2025)</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 13 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 14 Sep 2025 00:00:00 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Syllabus</title>
@@ -20,35 +20,35 @@
       <link>http://localhost:1313/en/lectures/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/en/lectures/index.html</guid>
-      <description>Lectures Every Thursday from 9:00 to 12:00.&#xA;The ideal schedule is given below. It is subject to modifications.&#xA;Class-related discussion and questions will be on Slack. Do not forget to register here.&#xA;Warning The lecture of the 31st of October was on Zoom. The record is on this link, passcode: 8a=3P!BE.&#xA;Week Date Topic Instructor 1 19 Sept No class (Thesis planning &amp; Career planning workshops) 2 26 Sept Introduction, RMarkdown, Github, Project Samuel 3 3 Oct Data structures, Control structures, Function Samuel 4 10 Oct Exercise and Homework 1 Timofei 5 17 Oct Object-oriented programming, Webscraping, Shiny App Samuel 6 24 Oct Exercise and Homework 2 Timofei 7 31 Oct Functional programming, Package creation, Advanced shiny App, Samuel 8 7 Nov Exercise and Homework 3 Timofei 9 14 Nov Data science with R on Google Cloud Samuel 9 21 Nov Power BI, final class Samuel 11 28 Nov Group Project Timofei 12 5 Dec Group project Timofei 13 12 Dec Group project Timofei 14 19 Dec Project Presentations Samuel and Timofei</description>
+      <description>Every Thursday from 9:00 to 12:00.&#xA;The ideal schedule is given below. It is subject to modifications.&#xA;Class-related discussion and questions will be on Slack. Do not forget to register here.&#xA;Warning Exceptionnally the Practical on week 6 will be on Friday 24 Oct.&#xA;Week Date Focus Session (3h) Homework 1 18 Sep 2025 Kick-off No class (Thesis &amp; Career workshops) – 2 25 Sep 2025 Introduction &amp; Tools (Lecture) - Course overview, expectations - Reproducibility in analytics - Tools: R, Python, SQL, GitHub, Markdown/Jupyter – 3 02 Oct 2025 Programming Foundations (Lecture) - Data structures (R &amp; Python)- Control structures &amp; functions- Good coding practices HW1 released (Programming foundations in R/Python) 4 09 Oct 2025 Practical 1 - R/Python coding drills (functions, loops, vectorization)- Git workflow practice HW1 discussed 5 16 Oct 2025 Data Management &amp; Collection (Lecture) - Relational databases &amp; SQL basics (SELECT, JOIN, GROUP BY)- Accessing SQL from R/Python- Web scraping (Rvest, BeautifulSoup)- APIs &amp; JSON- Storage formats &amp; best practices HW1 due HW2 released (SQL + scraping/API integration) 6 24 Oct 2025 Practical 2 - SQL queries + API/scraping mini-lab- Integrate results into R/Python HW2 discussed 7 30 Oct 2025 Software Engineering for Data Science (Lecture) - Object-oriented programming (R S3/S4, Python classes)- Functional programming- Package development- Testing &amp; documentation HW2 due HW3 released (functions, package basics, testing) 8 06 Nov 2025 Practical 3 - Functions &amp; package skeleton in R/Python- Documentation &amp; testing basics HW3 discussed 9 13 Nov 2025 Modern Tools: BI &amp; LLMs (Lecture) - Power BI for visualization &amp; storytelling- Prompt engineering for LLMs- Using LLMs for code/documentation/tests- AI copilots for analytics HW3 due 10 20 Nov 2025 Practical 4 - LLM lab: generate SQL queries, R/Python snippets- Build BI dashboard (Power BI/Shiny/Streamlit) – 11 27 Nov 2025 Project Work I - Group project supervision- Focus on reproducibility, integration, and communication – 12 04 Dec 2025 Project Work II - Group sprint: project review- Hands-on project development – 13 11 Dec 2025 Project Work III - Project refinement- Preparing final deliverables – 14 18 Dec 2025 Project Presentations - Final presentations –</description>
     </item>
     <item>
       <title>Tutorials</title>
       <link>http://localhost:1313/en/tutorials/index.html</link>
       <pubDate>Mon, 03 Sep 2018 11:17:38 +0200</pubDate>
       <guid>http://localhost:1313/en/tutorials/index.html</guid>
-      <description>Tutorials This section contains the tutorials on various topics, namely, coding style guide, basics of syntax, best practice, conventions, typical workflows, etc.</description>
+      <description>This section contains the tutorials on various topics, namely, coding style guide, basics of syntax, best practice, conventions, typical workflows, etc.</description>
     </item>
     <item>
       <title>Exercises</title>
       <link>http://localhost:1313/en/exercises/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/en/exercises/index.html</guid>
-      <description>Exercises Train yourself with material presented during class.&#xA;Exercises _index.files/Exercise1_solution.pdf (141 KB) _index.files/Exercise1.pdf (123 KB) _index.files/Exercise2_solution.pdf (185 KB) _index.files/Exercise2.pdf (55 KB) _index.files/Exercise3_solution.pdf (187 KB) _index.files/Exercise3.pdf (58 KB) _index.files/Financial Sample.xlsx (81 KB) _index.files/snipes.csv (1020 B)</description>
+      <description>Train yourself with material presented during class.&#xA;Exercises _index.files/Exercise1_solution.pdf (141 KB) _index.files/Exercise1.pdf (123 KB) _index.files/Exercise2_solution.pdf (185 KB) _index.files/Exercise2.pdf (55 KB) _index.files/Exercise3_solution.pdf (187 KB) _index.files/Exercise3.pdf (58 KB) _index.files/Financial Sample.xlsx (81 KB) _index.files/snipes.csv (1020 B)</description>
     </item>
     <item>
       <title>Homeworks</title>
       <link>http://localhost:1313/en/homeworks/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/en/homeworks/index.html</guid>
-      <description>Homeworks There are four graded homeworks to be submitted at different deadlines during the semester. The homeworks represent 50% of the final grade. Time management is important for succeeding in this class, try to avoid the following example:</description>
+      <description>There are four graded homeworks to be submitted at different deadlines during the semester. The homeworks represent 50% of the final grade. Time management is important for succeeding in this class, try to avoid the following example:</description>
     </item>
     <item>
       <title>Project</title>
       <link>http://localhost:1313/en/project/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/en/project/index.html</guid>
-      <description>Project Project represents 30 points, so 50% of the final grade.&#xA;Groups are here. Different requirements are explained in these slides and the pdf below.&#xA;Related files _index.files/project_summary.pdf (61 KB)</description>
+      <description>Project represents 30 points, so 50% of the final grade.&#xA;Groups are here. Different requirements are explained in these slides and the pdf below.&#xA;Related files _index.files/project_summary.pdf (61 KB)</description>
     </item>
     <item>
       <title>Groups</title>
@@ -60,9 +60,9 @@
     <item>
       <title>Resources</title>
       <link>http://localhost:1313/en/resources/index.html</link>
-      <pubDate>Thu, 09 Aug 2018 17:27:26 +0200</pubDate>
+      <pubDate>Sun, 14 Sep 2025 00:00:00 +0200</pubDate>
       <guid>http://localhost:1313/en/resources/index.html</guid>
-      <description>Resources Getting started with R and Rstudio The CRAN website CRAN is a network of ftp and web servers around the world that store identical, up-to-date, versions of R and its documentation.&#xA;An Introduction to R This official and up-to-date tutorial, gives an introduction to the language and how to use R for doing statistical analysis and graphics.&#xA;RStudio RStudio is an integrated development environment (IDE) for R. It includes a console, syntax-highlighting editor that supports direct code execution, as well as tools for plotting, history, debugging and workspace management.</description>
+      <description>This page collects useful resources to support your learning in Data and Code Management: From Collection to Application.&#xA;All resources are freely available online.&#xA;Getting started with R and RStudio The CRAN website — official source for R and its documentation. An Introduction to R — official tutorial covering basics of R programming and statistical analysis. RStudio IDE — the most widely used IDE for R. RStudio cheat sheets — concise guides for R packages and workflows. The tidyverse — collection of R packages for data manipulation, visualization, and analysis. Getting started with Python Python official documentation — language reference and tutorials. Python Data Science Handbook by Jake VanderPlas — free online guide to NumPy, pandas, matplotlib, scikit-learn. Real Python — tutorials and best practices for Python programming. Pandas documentation — data wrangling in Python. Matplotlib gallery — quick examples for Python plotting. SQL and Databases Mode SQL Tutorial — interactive beginner-to-advanced SQL lessons. SQLBolt — hands-on SQL exercises. PostgreSQL documentation — reference for one of the most popular open-source databases. SQLite documentation — lightweight relational database, easy to set up. Reproducibility and Collaboration Happy Git and GitHub for the useR by Jenny Bryan — beginner-friendly guide to version control. Pro Git Book — complete reference on Git. RMarkdown and Jupyter Notebooks — tools for literate programming. Quarto — next-generation publishing system for R, Python, and Julia. Business Intelligence &amp; Visualization Power BI Documentation — tutorials and user guides from Microsoft. Mastering Shiny by Hadley Wickham — developing interactive web apps in R. Streamlit documentation — build web apps in Python for data science. ggplot2 book by Hadley Wickham — R visualization. Seaborn documentation — Python data visualization. Large Language Models (LLMs) and AI Tools Prompt Engineering Guide — strategies for effective LLM use. LangChain documentation — framework for building applications powered by LLMs in Python. OpenAI API documentation — reference for integrating LLMs into data workflows. Recommended Books Advanced R by Hadley Wickham. R for Data Science by Grolemund &amp; Wickham. Fluent Python (2nd Edition) by Luciano Ramalho. Effective Python by Brett Slatkin. SQL for Data Scientists by Renee M. P. Teate. Miscellaneous Shiny — open-source R package for interactive apps. Streamlit — Python alternative for quick dashboards. Rcpp for Seamless R and C++ Integration — extend R with C++. Engineering Production-Grade Shiny Apps — best practices for robust Shiny development.</description>
     </item>
   </channel>
 </rss>

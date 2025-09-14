@@ -1,106 +1,84 @@
 +++
 title = "Resources"
-date = 2018-08-09T17:27:26+02:00
+date = 2025-09-14T00:00:00+02:00
 weight = 30
 chapter = true
 +++
 
-# Resources
+This page collects useful resources to support your learning in *Data and Code Management: From Collection to Application*.  
+All resources are freely available online.
 
-## Getting started with R and Rstudio
+---
 
-#### [The CRAN website](https://cran.r-project.org/)
+## Getting started with R and RStudio
 
-CRAN is a network of ftp and web servers around the world that store identical, 
-up-to-date, versions of R and its documentation. 
+- [The CRAN website](https://cran.r-project.org/) — official source for R and its documentation.  
+- [An Introduction to R](https://cran.r-project.org/doc/manuals/r-release/R-intro.pdf) — official tutorial covering basics of R programming and statistical analysis.  
+- [RStudio IDE](https://posit.co/download/rstudio-desktop/) — the most widely used IDE for R.  
+- [RStudio cheat sheets](https://posit.co/resources/cheatsheets/) — concise guides for R packages and workflows.  
+- [The tidyverse](https://www.tidyverse.org/) — collection of R packages for data manipulation, visualization, and analysis.  
 
-#### [An Introduction to R](https://cran.r-project.org/doc/manuals/r-release/R-intro.pdf)
+---
 
-This official and up-to-date tutorial, gives an introduction to the language 
-and how to use R for doing statistical analysis and graphics.	
+## Getting started with Python
 
-#### [RStudio](https://www.rstudio.com/products/rstudio/)
+- [Python official documentation](https://docs.python.org/3/) — language reference and tutorials.  
+- [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) by Jake VanderPlas — free online guide to NumPy, pandas, matplotlib, scikit-learn.  
+- [Real Python](https://realpython.com/) — tutorials and best practices for Python programming.  
+- [Pandas documentation](https://pandas.pydata.org/docs/) — data wrangling in Python.  
+- [Matplotlib gallery](https://matplotlib.org/stable/gallery/index.html) — quick examples for Python plotting.  
 
-RStudio is an integrated development environment (IDE) for R. 
-It includes a console, syntax-highlighting editor that supports direct code 
-execution, as well as tools for plotting, history, debugging and workspace 
-management. 
+---
 
-#### [Rstudio cheat sheets](https://www.rstudio.com/resources/cheatsheets/)
+## SQL and Databases
 
-A trove of cheat sheets below to make it easy to learn about and use some of 
-R's most useful packages.
+- [Mode SQL Tutorial](https://mode.com/sql-tutorial/) — interactive beginner-to-advanced SQL lessons.  
+- [SQLBolt](https://sqlbolt.com/) — hands-on SQL exercises.  
+- [PostgreSQL documentation](https://www.postgresql.org/docs/) — reference for one of the most popular open-source databases.  
+- [SQLite documentation](https://www.sqlite.org/docs.html) — lightweight relational database, easy to set up.  
 
-#### [R packages for data science](https://www.tidyverse.org/)
+---
 
-The tidyverse is an opinionated collection of R packages designed for data 
-science. All packages share an underlying design philosophy, grammar, and 
-data structures. 
+## Reproducibility and Collaboration
 
-## Online learning
+- [Happy Git and GitHub for the useR](https://happygitwithr.com/) by Jenny Bryan — beginner-friendly guide to version control.  
+- [Pro Git Book](https://git-scm.com/book/en/v2) — complete reference on Git.  
+- [RMarkdown](https://rmarkdown.rstudio.com/) and [Jupyter Notebooks](https://jupyter.org/) — tools for literate programming.  
+- [Quarto](https://quarto.org/) — next-generation publishing system for R, Python, and Julia.  
 
-#### [Coding club's tutorials](https://ourcodingclub.github.io/)
+---
 
-> Our mission is to create a fun and supportive environment where we develop programming and statistics skills together, using R. 
-> 
-> We want to replace statistics anxiety and code fear with inspiration and motivation to learn, and here we will share our experience.
+## Business Intelligence & Visualization
 
-#### [Datacamp's free R tutorial](https://www.datacamp.com/courses/free-introduction-to-r) and [Try R by Code School](http://tryr.codeschool.com/)
+- [Power BI Documentation](https://learn.microsoft.com/en-us/power-bi/) — tutorials and user guides from Microsoft.  
+- [Mastering Shiny](https://mastering-shiny.org/) by Hadley Wickham — developing interactive web apps in R.  
+- [Streamlit documentation](https://docs.streamlit.io/) — build web apps in Python for data science.  
+- [ggplot2 book](https://ggplot2-book.org/) by Hadley Wickham — R visualization.  
+- [Seaborn documentation](https://seaborn.pydata.org/) — Python data visualization.  
 
-Both sites provide interactive lessons that will get you writing real code in minutes. They are a great place to make mistakes and test out new skills. You are told immediately when you go wrong and given a chance to fix your code.
+---
 
-#### [Writing functions in R](https://www.datacamp.com/courses/writing-functions-in-r)
+## Large Language Models (LLMs) and AI Tools
 
-This course will teach you the fundamentals of writing functions in R so that, among other things, you can make your code more readable, avoid coding errors, and automate repetitive tasks.
+- [Prompt Engineering Guide](https://www.promptingguide.ai/) — strategies for effective LLM use.  
+- [LangChain documentation](https://python.langchain.com/) — framework for building applications powered by LLMs in Python.  
+- [OpenAI API documentation](https://platform.openai.com/docs/) — reference for integrating LLMs into data workflows.  
 
-#### [Introduction to the tidyverse](https://www.datacamp.com/courses/introduction-to-the-tidyverse)
+---
 
-This is an introduction to the dplyr and ggplot2 packages through exploration and visualization of country data over time. 
-This is a suitable course for people who have no or limited experience in R and are interested in learning to perform data analysis.
+## Recommended Books
 
-#### [Data visualisation with ggplot2](https://www.datacamp.com/courses/data-visualization-with-ggplot2-1)
+- [Advanced R](https://adv-r.hadley.nz/) by Hadley Wickham.  
+- [R for Data Science](https://r4ds.hadley.nz/) by Grolemund & Wickham.  
+- [Fluent Python (2nd Edition)](https://www.oreilly.com/library/view/fluent-python-2nd/9781492056348/) by Luciano Ramalho.  
+- [Effective Python](https://effectivepython.com/) by Brett Slatkin.  
+- [SQL for Data Scientists](https://www.wiley.com/en-us/SQL+for+Data+Scientists-p-9781119669364) by Renee M. P. Teate.  
 
-Covers the basics of ggplot2. 
-Followed by part 2 which covers more advanced topics.
+---
 
-#### [Exploratory data analysis in R: a case study](https://www.datacamp.com/courses/exploratory-data-analysis-in-r-case-study) 
+## Miscellaneous
 
-This course brings ggplot2 and dplyr into action in an in-depth analysis of 
-United Nations voting data. The course also introduces broom for tidying 
-model output and the tidyr package for wrangling data into an explorable shape.
-
-## Books
-
-#### [Advanced R](http://adv-r.had.co.nz/)
-
-> The book is designed primarily for R users who want to improve their 
-> programming skills and understanding of the language. 
-> It should also be useful for programmers coming to R from other languages, 
-> as it explains some of R’s quirks and shows how some parts that seem horrible 
-> do have a positive side.
-> <cite> Hadley Wickham </cite>
-
-#### [R for Data Science](http://r4ds.had.co.nz/)
-
-> This book will teach you how to do data science with R: You'll learn how to 
-> get your data into R, get it into the most useful structure, transform it, 
-> visualise it and model it. In this book, you will find a practicum of skills 
-> for data science. 
-> <cite> Garrett Grolemund and Hadley Wickham </cite>
-
-## Misc
-
-#### [Easy web applications in R](https://www.rstudio.com/products/shiny/)
-
-Shiny is an open source R package that provides an elegant and powerful web 
-framework for building web applications using R. 
-Shiny helps you turn your analyses into interactive web applications without 
-requiring HTML, CSS, or JavaScript knowledge.
-
-#### [Rcpp for Seamless R and C++ Integration](http://www.rcpp.org/)
-
-The Rcpp package has become the most widely used language extension for R, 
-the powerful environment and language for computing with data. 
-As of May 2017, 1026 packages on CRAN and a further 91 on BioConductor 
-deploy Rcpp to extend R, to accelerate computations and to connect to other 
-C++ projects.
+- [Shiny](https://shiny.posit.co/) — open-source R package for interactive apps.  
+- [Streamlit](https://streamlit.io/) — Python alternative for quick dashboards.  
+- [Rcpp for Seamless R and C++ Integration](http://www.rcpp.org/) — extend R with C++.  
+- [Engineering Production-Grade Shiny Apps](https://engineering-shiny.org/) — best practices for robust Shiny development.  

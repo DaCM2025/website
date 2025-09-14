@@ -20,6 +20,9 @@
     <lastmod>2018-09-03T11:19:38+02:00</lastmod>
   </url>
   <url>
+    <loc>http://localhost:1313/en/lectures/y24-25/index.html</loc>
+  </url>
+  <url>
     <loc>http://localhost:1313/en/syllabus/coursedescr/index.html</loc>
   </url>
   <url>
@@ -39,11 +42,10 @@
     <loc>http://localhost:1313/en/exercises/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/en/syllabus/communication/index.html</loc>
-    <lastmod>2019-08-09T16:46:51+02:00</lastmod>
+    <loc>http://localhost:1313/en/lectures/y22-23/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/en/lectures/y22-23/index.html</loc>
+    <loc>http://localhost:1313/en/syllabus/communication/index.html</loc>
   </url>
   <url>
     <loc>http://localhost:1313/en/homeworks/index.html</loc>
