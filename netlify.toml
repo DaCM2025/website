@@ -1,0 +1,14 @@
+# netlify.toml
+[build]
+  command = "hugo --gc --minify"
+  publish = "public"
+
+[build.environment]
+  # Set this to the SAME version you use locally: run `hugo version` on your machine.
+  HUGO_VERSION = "0.128.2"   # ← replace with your local Hugo (extended) version
+  HUGO_ENV = "production"
+  GO_VERSION = "1.22.0"      # needed for Hugo Modules (>= 1.18)
+  # Optional but helpful for modules:
+  # HUGO_ENABLEGITINFO = "true"
+  # GOPROXY = "https://proxy.golang.org,direct"
+
