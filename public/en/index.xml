@@ -23,41 +23,6 @@
       <description>Every Thursday from 9:00 to 12:00.&#xA;The ideal schedule is given below. It is subject to modifications.&#xA;Class-related discussion and questions will be on Slack. Do not forget to register here.&#xA;Warning Exceptionnally the Practical on week 6 will be on Friday 24 Oct.&#xA;Week Date Focus Session (3h) Homework 1 18 Sep 2025 Kick-off No class (Thesis &amp; Career workshops) – 2 25 Sep 2025 Introduction &amp; Tools (Lecture) - Course overview, expectations - Reproducibility in analytics - Tools: R, Python, SQL, GitHub, Markdown/Jupyter – 3 02 Oct 2025 Programming Foundations (Lecture) - Data structures (R &amp; Python)- Control structures &amp; functions- Good coding practices HW1 released (Programming foundations in R/Python) 4 09 Oct 2025 Practical 1 - R/Python coding drills (functions, loops, vectorization)- Git workflow practice HW1 discussed 5 16 Oct 2025 Data Management &amp; Collection (Lecture) - Relational databases &amp; SQL basics (SELECT, JOIN, GROUP BY)- Accessing SQL from R/Python- Web scraping (Rvest, BeautifulSoup)- APIs &amp; JSON- Storage formats &amp; best practices HW1 due HW2 released (SQL + scraping/API integration) 6 24 Oct 2025 Practical 2 - SQL queries + API/scraping mini-lab- Integrate results into R/Python HW2 discussed 7 30 Oct 2025 Software Engineering for Data Science (Lecture) - Object-oriented programming (R S3/S4, Python classes)- Functional programming- Package development- Testing &amp; documentation HW2 due HW3 released (functions, package basics, testing) 8 06 Nov 2025 Practical 3 - Functions &amp; package skeleton in R/Python- Documentation &amp; testing basics HW3 discussed 9 13 Nov 2025 Modern Tools: BI &amp; LLMs (Lecture) - Power BI for visualization &amp; storytelling- Prompt engineering for LLMs- Using LLMs for code/documentation/tests- AI copilots for analytics HW3 due 10 20 Nov 2025 Practical 4 - LLM lab: generate SQL queries, R/Python snippets- Build BI dashboard (Power BI/Shiny/Streamlit) – 11 27 Nov 2025 Project Work I - Group project supervision- Focus on reproducibility, integration, and communication – 12 04 Dec 2025 Project Work II - Group sprint: project review- Hands-on project development – 13 11 Dec 2025 Project Work III - Project refinement- Preparing final deliverables – 14 18 Dec 2025 Project Presentations - Final presentations –</description>
     </item>
     <item>
-      <title>Tutorials</title>
-      <link>http://localhost:1313/en/tutorials/index.html</link>
-      <pubDate>Mon, 03 Sep 2018 11:17:38 +0200</pubDate>
-      <guid>http://localhost:1313/en/tutorials/index.html</guid>
-      <description>This section contains the tutorials on various topics, namely, coding style guide, basics of syntax, best practice, conventions, typical workflows, etc.</description>
-    </item>
-    <item>
-      <title>Exercises</title>
-      <link>http://localhost:1313/en/exercises/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/exercises/index.html</guid>
-      <description>Train yourself with material presented during class.&#xA;Exercises _index.files/Exercise1_solution.pdf (141 KB) _index.files/Exercise1.pdf (123 KB) _index.files/Exercise2_solution.pdf (185 KB) _index.files/Exercise2.pdf (55 KB) _index.files/Exercise3_solution.pdf (187 KB) _index.files/Exercise3.pdf (58 KB) _index.files/Financial Sample.xlsx (81 KB) _index.files/snipes.csv (1020 B)</description>
-    </item>
-    <item>
-      <title>Homeworks</title>
-      <link>http://localhost:1313/en/homeworks/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/homeworks/index.html</guid>
-      <description>There are four graded homeworks to be submitted at different deadlines during the semester. The homeworks represent 50% of the final grade. Time management is important for succeeding in this class, try to avoid the following example:</description>
-    </item>
-    <item>
-      <title>Project</title>
-      <link>http://localhost:1313/en/project/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/project/index.html</guid>
-      <description>Project represents 30 points, so 50% of the final grade.&#xA;Groups are here. Different requirements are explained in these slides and the pdf below.&#xA;Related files _index.files/project_summary.pdf (61 KB)</description>
-    </item>
-    <item>
-      <title>Groups</title>
-      <link>http://localhost:1313/en/group/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/group/index.html</guid>
-      <description>Discover with whom you’re going to work with&#xA;Below are the groups. The number for the group has no meaning. The order within the group has no meaning.&#xA;Group 1 Group 2 Group 3 Group 4 Group 5 Group 6 Group 7 Fanny Iff Léo Wenger Alicia Gamal Ronald Medvedev Salvatore D’Amato Nathanaël Dürst Lodrik Adam Ambre Ferrari Urs Huerni Streuli Marvin Julien Keller Reisa Reci Hassan El Kira Jeff Macaraeg Elwin Freudiger Hugo Troendel Mariel Gandarillas Calderon Antoine Magnin Lina Dernaika Luca Marini Julien Perini Arnaud Aquin-Demierre Anastasia Pushkarev Marcela Choque Quispe Robin Michel Andrea Danesi Steve Marcello Emma Antille Olivier Dinh Valeriia Bilousko Sofia Daza Arandia Faber Bickerstaffe Thomas Bonnet Yanis Bougherara Herald Nakpil Maria Fernanda Cladera Melgar</description>
-    </item>
-    <item>
       <title>Resources</title>
       <link>http://localhost:1313/en/resources/index.html</link>
       <pubDate>Sun, 14 Sep 2025 00:00:00 +0200</pubDate>

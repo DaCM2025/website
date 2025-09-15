@@ -2,7 +2,7 @@
 title = "Exercises"
 weight = 19
 chapter = true
-hidden = false
+hidden = true
 +++
 
 Train yourself with material presented during class.

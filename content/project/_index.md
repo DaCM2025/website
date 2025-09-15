@@ -2,6 +2,7 @@
 title = "Project"
 weight = 25
 chapter = true
+hidden = true
 +++
 
 Project represents 30 points, so 50% of the final grade. 

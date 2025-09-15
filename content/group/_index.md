@@ -2,7 +2,7 @@
 title = "Groups"
 weight = 29
 chapter = true
-hidden = false
+hidden = true
 +++
 
 Discover with whom you're going to work with  

@@ -5,6 +5,7 @@
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <meta name="generator" content="Hugo 0.142.0">
     <meta name="generator" content="Relearn 8.0.1">
+    <meta name="robots" content="noindex, nofollow, noarchive, noimageindex">
     <meta name="description" content="Installing R and RStudio 1. Installing R Install the latest version of R (4.3.1 as of September 5, 2023). R itself is similar to an engine and chassis of a car, that is a bare minimum so that you can start driving. You need to follow steps below:
 Visit https://cran.r-project.org and click on “Download R for …”, where … corresponds to your operating system. Depending on the operating system: For Mac: download “R-4.3.1-arm64.pkg”, open this file, and install R; For Windows: click on “base”, “Download R-4.3.1 for Windows”, and download the .exe file. Open it, and install R. Note: If you are a Mac user and you see similar to the following warning messages during the startup">
     <meta name="author" content="Samuel Orso">
@@ -31,26 +32,26 @@ Visit https://cran.r-project.org and click on “Download R for …”, where �
     <title>R/RStudio setup :: Data and Code Management: From Collection to Application</title><link rel="shortcut icon" href="https://www.unil.ch/favicon.ico" type="image/x-icon" />
 <link rel="icon" href="https://www.unil.ch/favicon.ico" type="image/x-icon" />
 
-    <link href="/css/auto-complete/auto-complete.min.css?1757869852" rel="stylesheet">
-    <script src="/js/auto-complete/auto-complete.min.js?1757869852" defer></script>
-    <script src="/js/search-lunr.js?1757869852" defer></script>
-    <script src="/js/search.js?1757869852" defer></script>
+    <link href="/css/auto-complete/auto-complete.min.css?1757954679" rel="stylesheet">
+    <script src="/js/auto-complete/auto-complete.min.js?1757954679" defer></script>
+    <script src="/js/search-lunr.js?1757954679" defer></script>
+    <script src="/js/search.js?1757954679" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/searchindex.en.js?1757869852";
+      window.relearn.index_js_url="/searchindex.en.js?1757954679";
     </script>
-    <script src="/js/lunr/lunr.min.js?1757869852" defer></script>
-    <script src="/js/lunr/lunr.stemmer.support.min.js?1757869852" defer></script>
-    <script src="/js/lunr/lunr.multi.min.js?1757869852" defer></script>
-    <script src="/js/lunr/lunr.en.min.js?1757869852" defer></script>
+    <script src="/js/lunr/lunr.min.js?1757954679" defer></script>
+    <script src="/js/lunr/lunr.stemmer.support.min.js?1757954679" defer></script>
+    <script src="/js/lunr/lunr.multi.min.js?1757954679" defer></script>
+    <script src="/js/lunr/lunr.en.min.js?1757954679" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/fonts/fontawesome/css/fontawesome-all.min.css?1757869852" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/fontawesome-all.min.css?1757869852" rel="stylesheet"></noscript>
-    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1757869852" rel="stylesheet">
-    <link href="/css/theme.css?1757869852" rel="stylesheet">
-    <link href="/css/format-html.css?1757869852" rel="stylesheet" id="R-format-style">
+    <link href="/fonts/fontawesome/css/fontawesome-all.min.css?1757954679" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/fontawesome-all.min.css?1757954679" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1757954679" rel="stylesheet">
+    <link href="/css/theme.css?1757954679" rel="stylesheet">
+    <link href="/css/format-html.css?1757954679" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -289,15 +290,11 @@ Check this <a href="https://r-pkgs.org/setup.html#setup-tools" rel="external" ta
         <div class="R-sidebarmenu R-shortcutmenu-main">
           <ul class="enlarge morespace collapsible-menu">
             <li class="" data-nav-id="/en/syllabus/index.html"><a class="padding" href="/en/syllabus/index.html">Syllabus</a><ul id="R-subsections-f4a0a25f1d93ea9001626ba1cfe331ee" class="collapsible-menu"></ul></li>
-            <li class="" data-nav-id="/en/lectures/index.html"><a class="padding" href="/en/lectures/index.html">Lectures</a><ul id="R-subsections-bd2d5f2640929874ad03ea9fdcb748e9" class="collapsible-menu"></ul></li>
-            <li class="parent " data-nav-id="/en/tutorials/index.html"><a class="padding" href="/en/tutorials/index.html">Tutorials</a><ul id="R-subsections-e1e8c1e70c5500b49e8dda2dc550651a" class="collapsible-menu">
+            <li class="" data-nav-id="/en/lectures/index.html"><a class="padding" href="/en/lectures/index.html">Lectures</a></li>
+            <li class="parent hidden " data-nav-id="/en/tutorials/index.html"><a class="padding" href="/en/tutorials/index.html">Tutorials</a><ul id="R-subsections-e1e8c1e70c5500b49e8dda2dc550651a" class="collapsible-menu">
             <li class="" data-nav-id="/en/tutorials/github/index.html"><a class="padding" href="/en/tutorials/github/index.html">Git(hub) setup</a></li>
             <li class="active " data-nav-id="/en/tutorials/r_install/index.html"><a class="padding" href="/en/tutorials/r_install/index.html">R/RStudio setup</a></li>
             <li class="" data-nav-id="/en/tutorials/workflow/index.html"><a class="padding" href="/en/tutorials/workflow/index.html">Project-oriented workflow</a></li></ul></li>
-            <li class="" data-nav-id="/en/exercises/index.html"><a class="padding" href="/en/exercises/index.html">Exercises</a></li>
-            <li class="" data-nav-id="/en/homeworks/index.html"><a class="padding" href="/en/homeworks/index.html">Homeworks</a></li>
-            <li class="" data-nav-id="/en/project/index.html"><a class="padding" href="/en/project/index.html">Project</a></li>
-            <li class="" data-nav-id="/en/group/index.html"><a class="padding" href="/en/group/index.html">Groups</a></li>
             <li class="" data-nav-id="/en/resources/index.html"><a class="padding" href="/en/resources/index.html">Resources</a></li>
           </ul>
         </div>
@@ -335,8 +332,8 @@ Check this <a href="https://r-pkgs.org/setup.html#setup-tools" rel="external" ta
 <div id="R-footer"><p>Built with <a href="https://github.com/McShelby/hugo-theme-relearn" title="love"><i class="fas fa-heart"></i></a> by <a href="https://gohugo.io/">Hugo</a></p></div>
       </div>
     </aside>
-    <script src="/js/clipboard/clipboard.min.js?1757869852" defer></script>
-    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1757869852" defer></script>
-    <script src="/js/theme.js?1757869852" defer></script>
+    <script src="/js/clipboard/clipboard.min.js?1757954679" defer></script>
+    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1757954679" defer></script>
+    <script src="/js/theme.js?1757954679" defer></script>
   </body>
 </html>

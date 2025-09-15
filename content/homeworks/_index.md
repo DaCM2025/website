@@ -2,6 +2,7 @@
 title = "Homeworks"
 weight = 20
 chapter = true
+hidden = true
 +++
 
 There are four graded homeworks to be submitted at different deadlines during the semester. The homeworks represent 50% of the final grade. Time management is important for succeeding in this class, try to avoid the following example:
