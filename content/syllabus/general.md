@@ -11,7 +11,7 @@ weight = 5
 ### Course Websites
 
 * **Course website:**  <https://dcm.samorso.ch/>
-* **Online textbook:**  <http://r.smac-group.com/>
+* **Online textbook:**  <https://smac-group.github.io/ds/>
 * **Discussion Forum:** on slack
 
 ### Course Staff
