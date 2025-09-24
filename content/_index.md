@@ -12,7 +12,7 @@ Throughout the semester, students will explore:
 * **Programming in R and Python** for data wrangling, visualization, and modeling.
 * **SQL and database management**, essential for business analytics and large-scale data handling.
 * **Version control with GitHub**, enabling collaboration and transparent workflows.
-* **Reproducible research** using RMarkdown and Jupyter.
+* **Reproducible research** using Quarto and Jupyter Notebook.
 * **Software engineering practices** in data science (functions, testing, packages, documentation).
 * **Modern tools for communication and application**, including Power BI dashboards, Shiny apps, and Python web apps.
 * **Large Language Models (LLMs)** as assistants for coding, documentation, and analytics — used critically and responsibly.
