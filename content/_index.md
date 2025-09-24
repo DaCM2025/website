@@ -29,4 +29,6 @@ This course emphasizes **hands-on learning and project-based application**. Stud
 
 {{% notice warning %}}
 The first class is on Thursday 26 September. 
+For the first class, we start at 8:30am.
+For the rest of the class, we will start at 9am.
 {{% /notice %}}
