@@ -64,5 +64,5 @@ weight = 10
 [[menu.shortcuts]]
 name = "<i class='fa fa-fw fa-book'></i> Lectures"
 identifie = "book"
-url = "https://smac-group.github.io/ds/"
+url = ""
 weight = 15
