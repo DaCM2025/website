@@ -62,7 +62,7 @@ url = ""
 weight = 10
 
 [[menu.shortcuts]]
-name = "<i class='fa fa-fw fa-book'></i> Lectures"
+name = "<i class='fa fa-fw fa-book'></i> Slides"
 identifie = "book"
 url = "https://dacm2025.github.io/class/"
 weight = 15
