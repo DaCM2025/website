@@ -2,8 +2,13 @@
 title = "Tutorials"
 weight = 15
 chapter = true
-hidden = true
+hidden = false
 +++
+
+{{% notice warning %}}
+These tutorials are not updated.
+Last update, September 2024.
+{{% /notice %}}
 
 This section contains the tutorials on various topics, namely, coding style guide, basics of syntax, best practice, conventions, typical workflows, etc.
 
