@@ -20,9 +20,6 @@
     <lastmod>2018-09-03T11:19:38+02:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/en/lectures/y24-25/index.html</loc>
-  </url>
-  <url>
     <loc>http://localhost:1313/en/syllabus/coursedescr/index.html</loc>
   </url>
   <url>
@@ -30,10 +27,7 @@
   </url>
   <url>
     <loc>http://localhost:1313/en/tutorials/index.html</loc>
-    <lastmod>2018-09-03T11:17:38+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://localhost:1313/en/lectures/y23-24/index.html</loc>
+    <lastmod>2024-09-03T00:00:00+00:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/en/syllabus/grading/index.html</loc>
@@ -42,25 +36,10 @@
     <loc>http://localhost:1313/en/exercises/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/en/lectures/y22-23/index.html</loc>
-  </url>
-  <url>
     <loc>http://localhost:1313/en/syllabus/communication/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/en/homeworks/index.html</loc>
-  </url>
-  <url>
-    <loc>http://localhost:1313/en/lectures/y21-22/index.html</loc>
-  </url>
-  <url>
     <loc>http://localhost:1313/en/syllabus/material/index.html</loc>
-  </url>
-  <url>
-    <loc>http://localhost:1313/en/project/index.html</loc>
-  </url>
-  <url>
-    <loc>http://localhost:1313/en/group/index.html</loc>
   </url>
   <url>
     <loc>http://localhost:1313/en/resources/index.html</loc>

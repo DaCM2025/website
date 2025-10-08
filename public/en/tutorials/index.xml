@@ -3,7 +3,7 @@
   <channel>
     <title>Tutorials :: Data and Code Management: From Collection to Application</title>
     <link>http://localhost:1313/en/tutorials/index.html</link>
-    <description>This section contains the tutorials on various topics, namely, coding style guide, basics of syntax, best practice, conventions, typical workflows, etc.</description>
+    <description>Warning These tutorials are not updated. Last update, September 2024.&#xA;This section contains the tutorials on various topics, namely, coding style guide, basics of syntax, best practice, conventions, typical workflows, etc.</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Tue, 05 Sep 2023 13:10:39 +0200</lastBuildDate>

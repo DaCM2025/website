@@ -23,6 +23,20 @@
       <description>Every Thursday from 9:00 to 12:00.&#xA;The ideal schedule is given below. It is subject to modifications.&#xA;Class-related discussion and questions will be on Slack. Do not forget to register here.&#xA;Warning Exceptionnally the Practical on week 6 will be on Friday 24 Oct.&#xA;Week Date Focus Session (3h) Homework 1 18 Sep 2025 Kick-off No class (Thesis &amp; Career workshops) – 2 25 Sep 2025 Introduction &amp; Tools (Lecture) - Course overview, expectations - Reproducibility in analytics - Tools: R, Python, SQL, GitHub, Markdown/Jupyter – 3 02 Oct 2025 Programming Foundations (Lecture) - Data structures (R &amp; Python)- Control structures &amp; functions- Good coding practices HW1 released (Programming foundations in R/Python) 4 09 Oct 2025 Practical 1 - R/Python coding drills (functions, loops, vectorization)- Git workflow practice HW1 discussed 5 16 Oct 2025 Data Management &amp; Collection (Lecture) - Relational databases &amp; SQL basics (SELECT, JOIN, GROUP BY)- Accessing SQL from R/Python- Web scraping (Rvest, BeautifulSoup)- APIs &amp; JSON- Storage formats &amp; best practices HW1 due HW2 released (SQL + scraping/API integration) 6 24 Oct 2025 Practical 2 - SQL queries + API/scraping mini-lab- Integrate results into R/Python HW2 discussed 7 30 Oct 2025 Software Engineering for Data Science (Lecture) - Object-oriented programming (R S3/S4, Python classes)- Functional programming- Package development- Testing &amp; documentation HW2 due HW3 released (functions, package basics, testing) 8 06 Nov 2025 Practical 3 - Functions &amp; package skeleton in R/Python- Documentation &amp; testing basics HW3 discussed 9 13 Nov 2025 Modern Tools: BI &amp; LLMs (Lecture) - Power BI for visualization &amp; storytelling- Prompt engineering for LLMs- Using LLMs for code/documentation/tests- AI copilots for analytics HW3 due 10 20 Nov 2025 Practical 4 - LLM lab: generate SQL queries, R/Python snippets- Build BI dashboard (Power BI/Shiny/Streamlit) – 11 27 Nov 2025 Project Work I - Group project supervision- Focus on reproducibility, integration, and communication – 12 04 Dec 2025 Project Work II - Group sprint: project review- Hands-on project development – 13 11 Dec 2025 Project Work III - Project refinement- Preparing final deliverables – 14 18 Dec 2025 Project Presentations - Final presentations –</description>
     </item>
     <item>
+      <title>Tutorials</title>
+      <link>http://localhost:1313/en/tutorials/index.html</link>
+      <pubDate>Tue, 03 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/tutorials/index.html</guid>
+      <description>Warning These tutorials are not updated. Last update, September 2024.&#xA;This section contains the tutorials on various topics, namely, coding style guide, basics of syntax, best practice, conventions, typical workflows, etc.</description>
+    </item>
+    <item>
+      <title>Additional Exercises</title>
+      <link>http://localhost:1313/en/exercises/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/exercises/index.html</guid>
+      <description>Train yourself with additional exercises and their corrections.&#xA;Attachments series/serie1.pdf (121 KB)</description>
+    </item>
+    <item>
       <title>Resources</title>
       <link>http://localhost:1313/en/resources/index.html</link>
       <pubDate>Sun, 14 Sep 2025 00:00:00 +0200</pubDate>

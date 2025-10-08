@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Exercises :: Data and Code Management: From Collection to Application</title>
+    <title>Additional Exercises :: Data and Code Management: From Collection to Application</title>
     <link>http://localhost:1313/en/exercises/index.html</link>
-    <description>Train yourself with material presented during class.&#xA;Exercises _index.files/Exercise1_solution.pdf (141 KB) _index.files/Exercise1.pdf (123 KB) _index.files/Exercise2_solution.pdf (185 KB) _index.files/Exercise2.pdf (55 KB) _index.files/Exercise3_solution.pdf (187 KB) _index.files/Exercise3.pdf (58 KB) _index.files/Financial Sample.xlsx (81 KB) _index.files/snipes.csv (1020 B)</description>
+    <description>Train yourself with additional exercises and their corrections.&#xA;Attachments series/serie1.pdf (121 KB)</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <atom:link href="http://localhost:1313/en/exercises/index.xml" rel="self" type="application/rss+xml" />
